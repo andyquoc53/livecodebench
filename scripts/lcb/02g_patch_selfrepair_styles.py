@@ -53,6 +53,18 @@ METADATA_PATCH = """    metadata = json.loads(metadata)
         return ""
 """
 
+UNKNOWN_ERROR_ANCHOR = """    else:
+        raise NotImplementedError(
+            f"metadata['error_code'] = {metadata['error_code']} not implemented || {metadata=}"
+        )
+"""
+UNKNOWN_ERROR_PATCH = """    else:
+        message = (
+            f"The above code is incorrect and failed during evaluation with error code {metadata.get('error_code')}.\\n"
+            f"{field('error_message')}\\n{field('error')}"
+        )
+"""
+
 
 def patch_file(path: Path, old: str, new: str, marker: str) -> bool:
     text = path.read_text()
@@ -94,6 +106,22 @@ def patch_metadata_fields(path: Path) -> bool:
     return True
 
 
+def patch_unknown_error_codes(path: Path) -> bool:
+    text = path.read_text()
+    if "failed during evaluation with error code" in text:
+        print("self_repair.py already handles unknown evaluator error codes; no change needed.")
+        return False
+    if UNKNOWN_ERROR_ANCHOR not in text:
+        raise SystemExit(f"Could not find unknown error-code block in {path}; patch manually.")
+
+    backup = path.with_suffix(".py.bak")
+    backup.write_text(text)
+    path.write_text(text.replace(UNKNOWN_ERROR_ANCHOR, UNKNOWN_ERROR_PATCH, 1))
+    print(f"Patched {path} to tolerate unknown evaluator error codes.")
+    print(f"Backup saved to {backup}")
+    return True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("repo_root", type=Path, help="Path to the LiveCodeBench repository root")
@@ -110,6 +138,7 @@ def main() -> None:
     patch_file(lm_styles, ENUM_ANCHOR, ENUM_PATCH, '    MagiCoder = "MagiCoder"')
     patch_file(self_repair, SELF_REPAIR_ANCHOR, SELF_REPAIR_PATCH, "LMStyle.CodeQwenInstruct")
     patch_metadata_fields(self_repair)
+    patch_unknown_error_codes(self_repair)
 
 
 if __name__ == "__main__":
