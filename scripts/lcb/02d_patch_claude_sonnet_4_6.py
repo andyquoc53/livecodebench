@@ -25,12 +25,8 @@ ENTRY = '''
 '''
 
 
-def main() -> None:
-    p = argparse.ArgumentParser()
-    p.add_argument("repo_root", type=Path, help="Path to the LiveCodeBench repository root")
-    args = p.parse_args()
-
-    target = args.repo_root / "lcb_runner" / "lm_styles.py"
+def patch_lm_styles(repo_root: Path) -> None:
+    target = repo_root / "lcb_runner" / "lm_styles.py"
     if not target.exists():
         raise SystemExit(f"Could not find {target}")
 
@@ -62,6 +58,52 @@ def main() -> None:
     target.write_text(text)
     print(f"Patched {target} with Claude Sonnet 4.6.")
     print(f"Backup saved to {backup}")
+
+
+def patch_claude3_runner(repo_root: Path) -> None:
+    target = repo_root / "lcb_runner" / "runner" / "claude3_runner.py"
+    if not target.exists():
+        raise SystemExit(f"Could not find {target}")
+
+    text = target.read_text()
+    marker = 'if args.model == "claude-sonnet-4-6":'
+    if marker in text:
+        print("claude3_runner.py already omits top_p for Claude Sonnet 4.6; no change needed.")
+        return
+
+    old = '''            self.client_kwargs: dict[str | str] = {
+                "model": args.model,
+                "temperature": args.temperature,
+                "max_tokens": args.max_tokens,
+                "top_p": args.top_p,
+            }
+'''
+    new = '''            self.client_kwargs: dict[str | str] = {
+                "model": args.model,
+                "temperature": args.temperature,
+                "max_tokens": args.max_tokens,
+                "top_p": args.top_p,
+            }
+            if args.model == "claude-sonnet-4-6":
+                self.client_kwargs.pop("top_p", None)
+'''
+    if old not in text:
+        raise SystemExit("Could not find Claude3 non-thinking kwargs block; patch manually.")
+
+    backup = target.with_suffix(".py.bak")
+    backup.write_text(text)
+    target.write_text(text.replace(old, new, 1))
+    print(f"Patched {target} to omit top_p for Claude Sonnet 4.6.")
+    print(f"Backup saved to {backup}")
+
+
+def main() -> None:
+    p = argparse.ArgumentParser()
+    p.add_argument("repo_root", type=Path, help="Path to the LiveCodeBench repository root")
+    args = p.parse_args()
+
+    patch_lm_styles(args.repo_root)
+    patch_claude3_runner(args.repo_root)
 
 
 if __name__ == "__main__":
