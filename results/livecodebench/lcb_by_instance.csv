@@ -99,6 +99,185 @@ Claude-Sonnet-4.6,Scenario.codegeneration,3686,count-beautiful-splits-in-an-arra
 Claude-Sonnet-4.6,Scenario.codegeneration,3688,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,leetcode,hard,2025-01-04T06:30:00,2025-01,0.0,False,1
 Claude-Sonnet-4.6,Scenario.codegeneration,3690,smallest-substring-with-identical-characters-i,leetcode,hard,2024-12-21T18:30:00,2024-12,1.0,True,1
 Claude-Sonnet-4.6,Scenario.codegeneration,3699,count-special-subsequences,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,3700,subsequences-with-a-unique-middle-mode-i,leetcode,hard,2024-12-21T06:30:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,3702,maximum-subarray-with-equal-products,leetcode,easy,2025-01-04T18:30:00,2025-01,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,3715,maximum-coins-from-k-consecutive-bags,leetcode,medium,2025-01-04T18:30:00,2025-01,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,3716,longest-subsequence-with-decreasing-adjacent-difference,leetcode,medium,2025-01-04T06:30:00,2025-01,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc365_a,Leap Year,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc365_b,Second Best,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc365_c,Transportation Expenses,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc365_d,AtCoder Janken 3,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc365_e,Xor Sigma Problem,atcoder,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_a,Election 2,atcoder,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_b,Vertical Writing,atcoder,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_c,Balls and Bag Query,atcoder,medium,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_d,Cuboid Sum Query,atcoder,medium,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_e,Manhattan Multifocal Ellipse,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_f,Maximum Composition,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc366_g,XOR Neighbors,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_a,Shout Everyday,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_b,Cut .0,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_c,Enumerate Sequences,atcoder,medium,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_d,Pedometer,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_e,Permute K times,atcoder,hard,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_f,Rearrange Query,atcoder,hard,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc367_g,Sum of (XOR^K or 0),atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_a,Cut,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_b,Decrease 2 max elements,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_c,Triple Attack,atcoder,medium,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_d,Minimum Steiner Tree,atcoder,hard,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_e,Train Delay,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_f,Dividing Game,atcoder,hard,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc368_g,Add and Multiply Queries,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc369_a,369,atcoder,easy,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc369_b,Piano 3,atcoder,easy,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc369_c,Count Arithmetic Subarrays,atcoder,medium,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc369_d,Bonus EXP,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc369_e,Sightseeing Tour,atcoder,hard,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc369_g,As far as possible,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_a,Raise Both Hands,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_b,Binary Alchemy,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_c,Word Ladder,atcoder,medium,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_d,Cross Explosion,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_e,Avoid K Partition,atcoder,hard,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_f,Cake Division,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc370_g,Divisible by 3,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_a,Jiro,atcoder,easy,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_b,Taro,atcoder,easy,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_c,Make Isomorphic,atcoder,medium,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_d,1D Country,atcoder,medium,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_e,I Hate Sigma Problems,atcoder,hard,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_f,Takahashi in Narrow Road,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc371_g,Lexicographically Smallest Permutation,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc372_a,delete .,atcoder,easy,2024-09-21T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc372_c,Count ABC Again,atcoder,medium,2024-09-21T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc372_d,Buildings,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc372_e,K,atcoder,hard,2024-09-21T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc372_f,Teleporting Takahashi 2,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc372_g,Ax + By < C,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc373_a,September,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc373_b,1D Keyboard,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc373_c,Max Ai+Bj,atcoder,medium,2024-09-28T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc373_e,How to Win the Election,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc373_f,Knapsack with Diminishing Values,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc373_g,No Cross Matching,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_a,Takahashi san 2,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_b,Unvarnished Report,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_c,Separated Lunch,atcoder,medium,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_d,Laser Marking,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_e,Sensor Optimization Dilemma 2,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_f,Shipping,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc374_g,Only One Product Name,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_a,Seats,atcoder,easy,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_b,Traveling Takahashi Problem,atcoder,easy,2024-10-12T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_c,Spiral Rotation,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_d,ABA,atcoder,medium,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_e,3 Team Division,atcoder,hard,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_f,Road Blocked,atcoder,hard,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc375_g,Road Blocked 2,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_a,Candy Button,atcoder,easy,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_b,Hands on Ring (Easy),atcoder,medium,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_c,Prepare Another Box,atcoder,medium,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_d,Cycle,atcoder,medium,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_e,Max × Sum,atcoder,hard,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_f,Hands on Ring (Hard),atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc376_g,Treasure Hunting,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_a,Rearranging ABC,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_b,Avoid Rook Attack,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_c,Avoid Knight Attack,atcoder,medium,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_d,Many Segments 2,atcoder,medium,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_e,Permute K times 2,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_f,Avoid Queen Attack,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc377_g,Edit to Match,atcoder,hard,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_a,Pairing,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_b,Garbage Collection,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_c,Repeating,atcoder,medium,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_d,Count Simple Paths,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_e,Mod Sigma Problem,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_f,Add One Edge 2,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc378_g,Everlasting LIDS,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_a,Cyclic,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_b,Strawberries,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_c,Sowing Stones,atcoder,medium,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_d,Home Garden,atcoder,medium,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_e,Sum of All Substrings,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_f,Buildings 2,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc379_g,Count Grid 3,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_a,123233,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_b,Hurdle Parsing,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_c,Move Segment,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_d,Strange Mirroring,atcoder,medium,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_e,1D Bucket Tool,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_f,Exchange Game,atcoder,hard,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc380_g,Another Shuffle Window,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc381_a,11/22 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc381_b,1122 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc381_c,11/22 Substring,atcoder,medium,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc381_d,1122 Substring,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc381_e,11/22 Subsequence,atcoder,hard,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc382_a,Daily Cookie,atcoder,easy,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc382_b,Daily Cookie 2,atcoder,easy,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc382_c,Kaiten Sushi,atcoder,medium,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc382_d,Keep Distance,atcoder,hard,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc382_f,Falling Bars,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc382_g,Tile Distance 3,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc383_a,Humidifier 1,atcoder,easy,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc383_b,Humidifier 2,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc383_c,Humidifier 3,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc383_d,9 Divisors,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc383_e,Sum of Max Matching,atcoder,hard,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_a,aaaadaa,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_b,ARC Division,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_c,Perfect Standings,atcoder,medium,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_d,Repeated Sequence,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_e,Takahashi is Slime 2,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_f,Double Sum 2,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc384_g,Abs Sum,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc385_a,Equally,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc385_b,Santa Claus 1,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc385_c,Illuminate Buildings,atcoder,medium,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc385_d,Santa Claus 2,atcoder,hard,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc385_e,Snowflake Tree,atcoder,hard,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc385_f,Visible Buildings,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc386_a,Full House 2,atcoder,easy,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc386_b,Calculator,atcoder,easy,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc386_c,Operate 1,atcoder,medium,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc386_d,Diagonal Separation,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc386_e,Maximize XOR,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,abc386_f,Operate K,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc181_a,Sort Left and Right,atcoder,medium,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc181_b,Annoying String Problem,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc181_c,Row and Column Order,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc181_d,Prefix Bubble Sort,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc182_a,Chmax Rush!,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc182_c,Sum of Number of Divisors of Product,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc182_d,Increment Decrement Again,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc182_e,Sum of Min of Mod of Linear,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc183_a,Median of Good Sequences,atcoder,medium,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc183_b,Near Assignment,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc183_c,Not Argmax,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc183_d,Keep Perfectly Matched,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc184_c,Mountain and Valley Folds,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc184_d,Erase Balls 2D,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc184_e,Accumulating Many Times,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc185_b,+1 and,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc185_c,Sum of Three Integers,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc185_d,Random Walk on Tree,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc185_e,Adjacent GCD,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc186_a,Underclued,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc186_b,Typical Permutation Descriptor,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc186_c,Ball and Box,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc186_d,Polish Mania,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc186_e,Missing Subsequence,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc187_b,Sum of CC,atcoder,hard,2024-11-17T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc188_a,ABC Symmetry,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc188_b,Symmetric Painting,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc188_c,Honest or Liar or Confused,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc188_d,Mirror and Order,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc189_a,Reversi 2,atcoder,medium,2024-12-08T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc189_b,Minimize Sum,atcoder,hard,2024-12-08T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc189_c,Balls and Boxes,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.codegeneration,arc189_d,Takahashi is Slime,atcoder,hard,2024-12-08T00:00:00,2024-12,1.0,True,1
 Claude-Sonnet-4.6,Scenario.selfrepair,3485,maximize-score-of-numbers-in-ranges,leetcode,medium,2024-09-07T19:30:00,2024-09,1.0,True,1
 Claude-Sonnet-4.6,Scenario.selfrepair,3487,find-maximum-removals-from-source-string,leetcode,medium,2024-10-12T07:30:00,2024-10,1.0,True,1
 Claude-Sonnet-4.6,Scenario.selfrepair,3495,k-th-nearest-obstacle-queries,leetcode,medium,2024-08-31T19:30:00,2024-08,1.0,True,1
@@ -199,6 +378,185 @@ Claude-Sonnet-4.6,Scenario.selfrepair,3686,count-beautiful-splits-in-an-array,le
 Claude-Sonnet-4.6,Scenario.selfrepair,3688,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,leetcode,hard,2025-01-04T06:30:00,2025-01,0.0,False,1
 Claude-Sonnet-4.6,Scenario.selfrepair,3690,smallest-substring-with-identical-characters-i,leetcode,hard,2024-12-21T18:30:00,2024-12,1.0,True,1
 Claude-Sonnet-4.6,Scenario.selfrepair,3699,count-special-subsequences,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,3700,subsequences-with-a-unique-middle-mode-i,leetcode,hard,2024-12-21T06:30:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,3702,maximum-subarray-with-equal-products,leetcode,easy,2025-01-04T18:30:00,2025-01,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,3715,maximum-coins-from-k-consecutive-bags,leetcode,medium,2025-01-04T18:30:00,2025-01,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,3716,longest-subsequence-with-decreasing-adjacent-difference,leetcode,medium,2025-01-04T06:30:00,2025-01,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc365_a,Leap Year,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc365_b,Second Best,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc365_c,Transportation Expenses,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc365_d,AtCoder Janken 3,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc365_e,Xor Sigma Problem,atcoder,hard,2024-08-03T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_a,Election 2,atcoder,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_b,Vertical Writing,atcoder,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_c,Balls and Bag Query,atcoder,medium,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_d,Cuboid Sum Query,atcoder,medium,2024-08-10T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_e,Manhattan Multifocal Ellipse,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_f,Maximum Composition,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc366_g,XOR Neighbors,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_a,Shout Everyday,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_b,Cut .0,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_c,Enumerate Sequences,atcoder,medium,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_d,Pedometer,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_e,Permute K times,atcoder,hard,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_f,Rearrange Query,atcoder,hard,2024-08-17T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc367_g,Sum of (XOR^K or 0),atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_a,Cut,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_b,Decrease 2 max elements,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_c,Triple Attack,atcoder,medium,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_d,Minimum Steiner Tree,atcoder,hard,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_e,Train Delay,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_f,Dividing Game,atcoder,hard,2024-08-24T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc368_g,Add and Multiply Queries,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc369_a,369,atcoder,easy,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc369_b,Piano 3,atcoder,easy,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc369_c,Count Arithmetic Subarrays,atcoder,medium,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc369_d,Bonus EXP,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc369_e,Sightseeing Tour,atcoder,hard,2024-08-31T00:00:00,2024-08,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc369_g,As far as possible,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_a,Raise Both Hands,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_b,Binary Alchemy,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_c,Word Ladder,atcoder,medium,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_d,Cross Explosion,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_e,Avoid K Partition,atcoder,hard,2024-09-07T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_f,Cake Division,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc370_g,Divisible by 3,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_a,Jiro,atcoder,easy,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_b,Taro,atcoder,easy,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_c,Make Isomorphic,atcoder,medium,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_d,1D Country,atcoder,medium,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_e,I Hate Sigma Problems,atcoder,hard,2024-09-14T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_f,Takahashi in Narrow Road,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc371_g,Lexicographically Smallest Permutation,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc372_a,delete .,atcoder,easy,2024-09-21T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc372_c,Count ABC Again,atcoder,medium,2024-09-21T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc372_d,Buildings,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc372_e,K,atcoder,hard,2024-09-21T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc372_f,Teleporting Takahashi 2,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc372_g,Ax + By < C,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc373_a,September,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc373_b,1D Keyboard,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc373_c,Max Ai+Bj,atcoder,medium,2024-09-28T00:00:00,2024-09,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc373_e,How to Win the Election,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc373_f,Knapsack with Diminishing Values,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc373_g,No Cross Matching,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_a,Takahashi san 2,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_b,Unvarnished Report,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_c,Separated Lunch,atcoder,medium,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_d,Laser Marking,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_e,Sensor Optimization Dilemma 2,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_f,Shipping,atcoder,hard,2024-10-05T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc374_g,Only One Product Name,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_a,Seats,atcoder,easy,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_b,Traveling Takahashi Problem,atcoder,easy,2024-10-12T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_c,Spiral Rotation,atcoder,medium,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_d,ABA,atcoder,medium,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_e,3 Team Division,atcoder,hard,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_f,Road Blocked,atcoder,hard,2024-10-12T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc375_g,Road Blocked 2,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_a,Candy Button,atcoder,easy,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_b,Hands on Ring (Easy),atcoder,medium,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_c,Prepare Another Box,atcoder,medium,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_d,Cycle,atcoder,medium,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_e,Max × Sum,atcoder,hard,2024-10-19T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_f,Hands on Ring (Hard),atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc376_g,Treasure Hunting,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_a,Rearranging ABC,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_b,Avoid Rook Attack,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_c,Avoid Knight Attack,atcoder,medium,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_d,Many Segments 2,atcoder,medium,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_e,Permute K times 2,atcoder,hard,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_f,Avoid Queen Attack,atcoder,hard,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc377_g,Edit to Match,atcoder,hard,2024-10-26T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_a,Pairing,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_b,Garbage Collection,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_c,Repeating,atcoder,medium,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_d,Count Simple Paths,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_e,Mod Sigma Problem,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_f,Add One Edge 2,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc378_g,Everlasting LIDS,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_a,Cyclic,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_b,Strawberries,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_c,Sowing Stones,atcoder,medium,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_d,Home Garden,atcoder,medium,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_e,Sum of All Substrings,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_f,Buildings 2,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc379_g,Count Grid 3,atcoder,hard,2024-11-09T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_a,123233,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_b,Hurdle Parsing,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_c,Move Segment,atcoder,medium,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_d,Strange Mirroring,atcoder,medium,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_e,1D Bucket Tool,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_f,Exchange Game,atcoder,hard,2024-11-16T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc380_g,Another Shuffle Window,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc381_a,11/22 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc381_b,1122 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc381_c,11/22 Substring,atcoder,medium,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc381_d,1122 Substring,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc381_e,11/22 Subsequence,atcoder,hard,2024-11-22T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc382_a,Daily Cookie,atcoder,easy,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc382_b,Daily Cookie 2,atcoder,easy,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc382_c,Kaiten Sushi,atcoder,medium,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc382_d,Keep Distance,atcoder,hard,2024-11-30T00:00:00,2024-11,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc382_f,Falling Bars,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc382_g,Tile Distance 3,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc383_a,Humidifier 1,atcoder,easy,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc383_b,Humidifier 2,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc383_c,Humidifier 3,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc383_d,9 Divisors,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc383_e,Sum of Max Matching,atcoder,hard,2024-12-07T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_a,aaaadaa,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_b,ARC Division,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_c,Perfect Standings,atcoder,medium,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_d,Repeated Sequence,atcoder,medium,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_e,Takahashi is Slime 2,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_f,Double Sum 2,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc384_g,Abs Sum,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc385_a,Equally,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc385_b,Santa Claus 1,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc385_c,Illuminate Buildings,atcoder,medium,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc385_d,Santa Claus 2,atcoder,hard,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc385_e,Snowflake Tree,atcoder,hard,2024-12-21T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc385_f,Visible Buildings,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc386_a,Full House 2,atcoder,easy,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc386_b,Calculator,atcoder,easy,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc386_c,Operate 1,atcoder,medium,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc386_d,Diagonal Separation,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc386_e,Maximize XOR,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,abc386_f,Operate K,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc181_a,Sort Left and Right,atcoder,medium,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc181_b,Annoying String Problem,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc181_c,Row and Column Order,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc181_d,Prefix Bubble Sort,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc182_a,Chmax Rush!,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc182_c,Sum of Number of Divisors of Product,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc182_d,Increment Decrement Again,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc182_e,Sum of Min of Mod of Linear,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc183_a,Median of Good Sequences,atcoder,medium,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc183_b,Near Assignment,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc183_c,Not Argmax,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc183_d,Keep Perfectly Matched,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc184_c,Mountain and Valley Folds,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc184_d,Erase Balls 2D,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc184_e,Accumulating Many Times,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc185_b,+1 and,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc185_c,Sum of Three Integers,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc185_d,Random Walk on Tree,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc185_e,Adjacent GCD,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc186_a,Underclued,atcoder,hard,2024-10-27T00:00:00,2024-10,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc186_b,Typical Permutation Descriptor,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc186_c,Ball and Box,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc186_d,Polish Mania,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc186_e,Missing Subsequence,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc187_b,Sum of CC,atcoder,hard,2024-11-17T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc188_a,ABC Symmetry,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc188_b,Symmetric Painting,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc188_c,Honest or Liar or Confused,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc188_d,Mirror and Order,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc189_a,Reversi 2,atcoder,medium,2024-12-08T00:00:00,2024-12,0.0,False,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc189_b,Minimize Sum,atcoder,hard,2024-12-08T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc189_c,Balls and Boxes,atcoder,hard,2024-12-08T00:00:00,2024-12,1.0,True,1
+Claude-Sonnet-4.6,Scenario.selfrepair,arc189_d,Takahashi is Slime,atcoder,hard,2024-12-08T00:00:00,2024-12,1.0,True,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3485,maximize-score-of-numbers-in-ranges,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3487,find-maximum-removals-from-source-string,leetcode,medium,2024-10-12T07:30:00,2024-10,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3495,k-th-nearest-obstacle-queries,leetcode,medium,2024-08-31T19:30:00,2024-08,0.0,False,1
@@ -214,6 +572,270 @@ DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3526,minimum-number-of-f
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3527,alternating-groups-iii,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3528,reach-end-of-array-with-max-score,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3531,minimum-amount-of-damage-dealt-to-bob,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3532,time-taken-to-mark-all-nodes,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3533,snake-in-matrix,leetcode,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3534,count-almost-equal-pairs-i,leetcode,medium,2024-08-24T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3535,find-the-count-of-monotonic-pairs-i,leetcode,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3540,hash-divided-string,leetcode,medium,2024-08-31T07:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3541,report-spam-message,leetcode,medium,2024-09-21T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3543,count-substrings-that-satisfy-k-constraint-i,leetcode,easy,2024-08-17T19:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3548,find-the-count-of-good-integers,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3550,maximum-value-sum-by-placing-three-rooks-i,leetcode,hard,2024-08-17T07:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3551,maximum-xor-score-subarray-queries,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3552,find-the-largest-palindrome-divisible-by-k,leetcode,hard,2024-08-17T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3553,check-if-two-chessboard-squares-have-the-same-color,leetcode,easy,2024-08-31T19:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3555,final-array-state-after-k-multiplication-operations-i,leetcode,easy,2024-08-24T19:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3558,find-a-safe-walk-through-a-grid,leetcode,medium,2024-09-14T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3559,minimum-number-of-valid-strings-to-form-target-i,leetcode,medium,2024-09-14T19:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3560,maximum-number-of-moves-to-kill-all-pawns,leetcode,hard,2024-09-07T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3562,maximum-score-of-non-overlapping-intervals,leetcode,hard,2025-01-04T18:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3563,select-cells-in-grid-with-maximum-score,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3566,find-the-sequence-of-strings-appeared-on-the-screen,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3567,convert-date-to-binary,leetcode,easy,2024-09-07T19:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3568,find-the-key-of-the-numbers,leetcode,easy,2024-08-31T07:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3570,count-of-substrings-containing-every-vowel-and-k-consonants-i,leetcode,medium,2024-09-28T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3571,length-of-the-longest-increasing-path,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3573,count-substrings-that-can-be-rearranged-to-contain-a-string-i,leetcode,medium,2024-09-21T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3575,find-the-maximum-sequence-value-of-array,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3579,maximum-possible-number-by-binary-concatenation,leetcode,medium,2024-10-05T19:30:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3580,find-the-occurrence-of-first-almost-equal-substring,leetcode,hard,2024-09-28T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3583,sorted-gcd-pair-queries,leetcode,hard,2024-10-05T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3584,find-the-lexicographically-smallest-valid-sequence,leetcode,medium,2024-09-28T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3587,maximum-points-tourist-can-earn,leetcode,medium,2024-10-26T07:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3588,count-the-number-of-winning-sequences,leetcode,hard,2024-10-12T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3591,shift-distance-between-two-strings,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3593,find-the-maximum-factor-score-of-array,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3594,identify-the-largest-outlier-in-an-array,leetcode,medium,2024-11-30T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3600,find-the-k-th-character-in-string-game-i,leetcode,easy,2024-09-28T19:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3603,check-if-dfs-strings-are-palindromes,leetcode,hard,2024-10-19T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3604,find-the-number-of-possible-ways-for-an-event,leetcode,hard,2024-10-12T07:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3605,construct-the-minimum-bitwise-array-i,leetcode,easy,2024-10-12T07:30:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3606,minimum-element-after-replacement-with-digit-sum,leetcode,easy,2024-09-28T07:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3607,minimum-division-operations-to-make-array-non-decreasing,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3608,find-the-number-of-subsequences-with-equal-gcd,leetcode,hard,2024-10-26T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3610,find-x-sum-of-all-k-long-subarrays-i,leetcode,easy,2024-10-12T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3612,adjacent-increasing-subarrays-detection-i,leetcode,easy,2024-11-09T18:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3613,maximize-amount-after-two-days-of-conversions,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3616,make-array-elements-equal-to-zero,leetcode,easy,2024-11-16T18:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3617,find-the-original-typed-string-i,leetcode,easy,2024-10-26T07:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3620,maximum-number-of-distinct-elements-after-operations,leetcode,medium,2024-12-21T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3621,minimum-operations-to-make-array-values-equal-to-k,leetcode,easy,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3622,maximum-frequency-of-an-element-after-performing-operations-i,leetcode,medium,2024-11-09T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3625,stone-removal-game,leetcode,easy,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3626,smallest-divisible-digit-product-i,leetcode,easy,2024-11-09T06:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3627,find-minimum-time-to-reach-last-room-i,leetcode,medium,2024-11-02T19:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3629,total-characters-in-string-after-transformations-i,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3631,count-k-reducible-numbers-less-than-n,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3632,button-with-longest-push-time,leetcode,easy,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3634,find-mirror-score-of-a-string,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3636,check-balanced-string,leetcode,easy,2024-11-02T19:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3637,count-number-of-balanced-permutations,leetcode,hard,2024-11-02T19:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3638,minimum-operations-to-make-character-frequencies-equal,leetcode,hard,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3639,zero-array-transformation-i,leetcode,medium,2024-11-16T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3644,minimum-positive-sum-subarray,leetcode,easy,2024-11-23T18:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3646,sum-of-good-subsequences,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3647,zero-array-transformation-iii,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3648,find-the-maximum-number-of-fruits-collected,leetcode,hard,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3649,minimum-time-to-break-locks-i,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3651,transformed-array,leetcode,easy,2024-12-07T18:30:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3653,maximum-subarray-sum-with-length-divisible-by-k,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3654,minimum-array-sum,leetcode,medium,2024-11-23T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3655,digit-operations-to-make-two-integers-equal,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3656,minimum-number-of-operations-to-make-elements-in-array-distinct,leetcode,easy,2024-12-21T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3657,check-if-grid-can-be-cut-into-sections,leetcode,medium,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3658,minimize-the-maximum-adjacent-element-difference,leetcode,hard,2024-11-16T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3659,count-paths-with-the-given-xor-value,leetcode,medium,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3675,maximize-sum-of-weights-after-edge-removals,leetcode,hard,2024-11-23T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3676,smallest-number-with-all-set-bits,leetcode,easy,2024-11-30T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3680,count-connected-components-in-lcm-graph,leetcode,hard,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3681,maximum-area-rectangle-with-point-constraints-i,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3682,count-the-number-of-arrays-with-k-matching-adjacent-elements,leetcode,hard,2024-12-28T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3683,find-the-lexicographically-largest-string-from-the-box-i,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3684,substring-matching-pattern,leetcode,easy,2025-01-04T06:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3685,count-subarrays-of-length-three-with-a-condition,leetcode,easy,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3686,count-beautiful-splits-in-an-array,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3688,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,leetcode,hard,2025-01-04T06:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3690,smallest-substring-with-identical-characters-i,leetcode,hard,2024-12-21T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3699,count-special-subsequences,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3700,subsequences-with-a-unique-middle-mode-i,leetcode,hard,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3702,maximum-subarray-with-equal-products,leetcode,easy,2025-01-04T18:30:00,2025-01,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3715,maximum-coins-from-k-consecutive-bags,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,3716,longest-subsequence-with-decreasing-adjacent-difference,leetcode,medium,2025-01-04T06:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc365_a,Leap Year,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc365_b,Second Best,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc365_c,Transportation Expenses,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc365_d,AtCoder Janken 3,atcoder,medium,2024-08-03T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc365_e,Xor Sigma Problem,atcoder,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_a,Election 2,atcoder,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_b,Vertical Writing,atcoder,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_c,Balls and Bag Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_d,Cuboid Sum Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_e,Manhattan Multifocal Ellipse,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_f,Maximum Composition,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc366_g,XOR Neighbors,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_a,Shout Everyday,atcoder,easy,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_b,Cut .0,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_c,Enumerate Sequences,atcoder,medium,2024-08-17T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_d,Pedometer,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_e,Permute K times,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_f,Rearrange Query,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc367_g,Sum of (XOR^K or 0),atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_a,Cut,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_b,Decrease 2 max elements,atcoder,easy,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_c,Triple Attack,atcoder,medium,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_d,Minimum Steiner Tree,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_e,Train Delay,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_f,Dividing Game,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc368_g,Add and Multiply Queries,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc369_a,369,atcoder,easy,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc369_b,Piano 3,atcoder,easy,2024-08-31T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc369_c,Count Arithmetic Subarrays,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc369_d,Bonus EXP,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc369_e,Sightseeing Tour,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc369_g,As far as possible,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_a,Raise Both Hands,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_b,Binary Alchemy,atcoder,easy,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_c,Word Ladder,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_d,Cross Explosion,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_e,Avoid K Partition,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_f,Cake Division,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc370_g,Divisible by 3,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_a,Jiro,atcoder,easy,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_b,Taro,atcoder,easy,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_c,Make Isomorphic,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_d,1D Country,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_e,I Hate Sigma Problems,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_f,Takahashi in Narrow Road,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc371_g,Lexicographically Smallest Permutation,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc372_a,delete .,atcoder,easy,2024-09-21T00:00:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc372_c,Count ABC Again,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc372_d,Buildings,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc372_e,K,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc372_f,Teleporting Takahashi 2,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc372_g,Ax + By < C,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc373_a,September,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc373_b,1D Keyboard,atcoder,easy,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc373_c,Max Ai+Bj,atcoder,medium,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc373_e,How to Win the Election,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc373_f,Knapsack with Diminishing Values,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc373_g,No Cross Matching,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_a,Takahashi san 2,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_b,Unvarnished Report,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_c,Separated Lunch,atcoder,medium,2024-10-05T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_d,Laser Marking,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_e,Sensor Optimization Dilemma 2,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_f,Shipping,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc374_g,Only One Product Name,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_a,Seats,atcoder,easy,2024-10-12T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_b,Traveling Takahashi Problem,atcoder,easy,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_c,Spiral Rotation,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_d,ABA,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_e,3 Team Division,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_f,Road Blocked,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc375_g,Road Blocked 2,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_a,Candy Button,atcoder,easy,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_b,Hands on Ring (Easy),atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_c,Prepare Another Box,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_d,Cycle,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_e,Max × Sum,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_f,Hands on Ring (Hard),atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc376_g,Treasure Hunting,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_a,Rearranging ABC,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_b,Avoid Rook Attack,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_c,Avoid Knight Attack,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_d,Many Segments 2,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_e,Permute K times 2,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_f,Avoid Queen Attack,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc377_g,Edit to Match,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_a,Pairing,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_b,Garbage Collection,atcoder,easy,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_c,Repeating,atcoder,medium,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_d,Count Simple Paths,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_e,Mod Sigma Problem,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_f,Add One Edge 2,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc378_g,Everlasting LIDS,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_a,Cyclic,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_b,Strawberries,atcoder,easy,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_c,Sowing Stones,atcoder,medium,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_d,Home Garden,atcoder,medium,2024-11-09T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_e,Sum of All Substrings,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_f,Buildings 2,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc379_g,Count Grid 3,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_a,123233,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_b,Hurdle Parsing,atcoder,easy,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_c,Move Segment,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_d,Strange Mirroring,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_e,1D Bucket Tool,atcoder,hard,2024-11-16T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_f,Exchange Game,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc380_g,Another Shuffle Window,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc381_a,11/22 String,atcoder,easy,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc381_b,1122 String,atcoder,easy,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc381_c,11/22 Substring,atcoder,medium,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc381_d,1122 Substring,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc381_e,11/22 Subsequence,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc382_a,Daily Cookie,atcoder,easy,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc382_b,Daily Cookie 2,atcoder,easy,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc382_c,Kaiten Sushi,atcoder,medium,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc382_d,Keep Distance,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc382_f,Falling Bars,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc382_g,Tile Distance 3,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc383_a,Humidifier 1,atcoder,easy,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc383_b,Humidifier 2,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc383_c,Humidifier 3,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc383_d,9 Divisors,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc383_e,Sum of Max Matching,atcoder,hard,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_a,aaaadaa,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_b,ARC Division,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_c,Perfect Standings,atcoder,medium,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_d,Repeated Sequence,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_e,Takahashi is Slime 2,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_f,Double Sum 2,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc384_g,Abs Sum,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc385_a,Equally,atcoder,easy,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc385_b,Santa Claus 1,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc385_c,Illuminate Buildings,atcoder,medium,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc385_d,Santa Claus 2,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc385_e,Snowflake Tree,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc385_f,Visible Buildings,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc386_a,Full House 2,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc386_b,Calculator,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc386_c,Operate 1,atcoder,medium,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc386_d,Diagonal Separation,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc386_e,Maximize XOR,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,abc386_f,Operate K,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc181_a,Sort Left and Right,atcoder,medium,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc181_b,Annoying String Problem,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc181_c,Row and Column Order,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc181_d,Prefix Bubble Sort,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc182_a,Chmax Rush!,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc182_c,Sum of Number of Divisors of Product,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc182_d,Increment Decrement Again,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc182_e,Sum of Min of Mod of Linear,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc183_a,Median of Good Sequences,atcoder,medium,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc183_b,Near Assignment,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc183_c,Not Argmax,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc183_d,Keep Perfectly Matched,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc184_c,Mountain and Valley Folds,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc184_d,Erase Balls 2D,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc184_e,Accumulating Many Times,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc185_b,+1 and,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc185_c,Sum of Three Integers,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc185_d,Random Walk on Tree,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc185_e,Adjacent GCD,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc186_a,Underclued,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc186_b,Typical Permutation Descriptor,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc186_c,Ball and Box,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc186_d,Polish Mania,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc186_e,Missing Subsequence,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc187_b,Sum of CC,atcoder,hard,2024-11-17T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc188_a,ABC Symmetry,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc188_b,Symmetric Painting,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc188_c,Honest or Liar or Confused,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc188_d,Mirror and Order,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc189_a,Reversi 2,atcoder,medium,2024-12-08T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc189_b,Minimize Sum,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc189_c,Balls and Boxes,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.codegeneration,arc189_d,Takahashi is Slime,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3485,maximize-score-of-numbers-in-ranges,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3487,find-maximum-removals-from-source-string,leetcode,medium,2024-10-12T07:30:00,2024-10,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3495,k-th-nearest-obstacle-queries,leetcode,medium,2024-08-31T19:30:00,2024-08,0.0,False,1
@@ -229,6 +851,270 @@ DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3526,minimum-number-of-flips
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3527,alternating-groups-iii,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3528,reach-end-of-array-with-max-score,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3531,minimum-amount-of-damage-dealt-to-bob,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3532,time-taken-to-mark-all-nodes,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3533,snake-in-matrix,leetcode,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3534,count-almost-equal-pairs-i,leetcode,medium,2024-08-24T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3535,find-the-count-of-monotonic-pairs-i,leetcode,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3540,hash-divided-string,leetcode,medium,2024-08-31T07:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3541,report-spam-message,leetcode,medium,2024-09-21T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3543,count-substrings-that-satisfy-k-constraint-i,leetcode,easy,2024-08-17T19:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3548,find-the-count-of-good-integers,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3550,maximum-value-sum-by-placing-three-rooks-i,leetcode,hard,2024-08-17T07:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3551,maximum-xor-score-subarray-queries,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3552,find-the-largest-palindrome-divisible-by-k,leetcode,hard,2024-08-17T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3553,check-if-two-chessboard-squares-have-the-same-color,leetcode,easy,2024-08-31T19:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3555,final-array-state-after-k-multiplication-operations-i,leetcode,easy,2024-08-24T19:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3558,find-a-safe-walk-through-a-grid,leetcode,medium,2024-09-14T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3559,minimum-number-of-valid-strings-to-form-target-i,leetcode,medium,2024-09-14T19:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3560,maximum-number-of-moves-to-kill-all-pawns,leetcode,hard,2024-09-07T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3562,maximum-score-of-non-overlapping-intervals,leetcode,hard,2025-01-04T18:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3563,select-cells-in-grid-with-maximum-score,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3566,find-the-sequence-of-strings-appeared-on-the-screen,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3567,convert-date-to-binary,leetcode,easy,2024-09-07T19:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3568,find-the-key-of-the-numbers,leetcode,easy,2024-08-31T07:30:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3570,count-of-substrings-containing-every-vowel-and-k-consonants-i,leetcode,medium,2024-09-28T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3571,length-of-the-longest-increasing-path,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3573,count-substrings-that-can-be-rearranged-to-contain-a-string-i,leetcode,medium,2024-09-21T19:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3575,find-the-maximum-sequence-value-of-array,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3579,maximum-possible-number-by-binary-concatenation,leetcode,medium,2024-10-05T19:30:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3580,find-the-occurrence-of-first-almost-equal-substring,leetcode,hard,2024-09-28T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3583,sorted-gcd-pair-queries,leetcode,hard,2024-10-05T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3584,find-the-lexicographically-smallest-valid-sequence,leetcode,medium,2024-09-28T07:30:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3587,maximum-points-tourist-can-earn,leetcode,medium,2024-10-26T07:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3588,count-the-number-of-winning-sequences,leetcode,hard,2024-10-12T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3591,shift-distance-between-two-strings,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3593,find-the-maximum-factor-score-of-array,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3594,identify-the-largest-outlier-in-an-array,leetcode,medium,2024-11-30T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3600,find-the-k-th-character-in-string-game-i,leetcode,easy,2024-09-28T19:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3603,check-if-dfs-strings-are-palindromes,leetcode,hard,2024-10-19T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3604,find-the-number-of-possible-ways-for-an-event,leetcode,hard,2024-10-12T07:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3605,construct-the-minimum-bitwise-array-i,leetcode,easy,2024-10-12T07:30:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3606,minimum-element-after-replacement-with-digit-sum,leetcode,easy,2024-09-28T07:30:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3607,minimum-division-operations-to-make-array-non-decreasing,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3608,find-the-number-of-subsequences-with-equal-gcd,leetcode,hard,2024-10-26T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3610,find-x-sum-of-all-k-long-subarrays-i,leetcode,easy,2024-10-12T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3612,adjacent-increasing-subarrays-detection-i,leetcode,easy,2024-11-09T18:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3613,maximize-amount-after-two-days-of-conversions,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3616,make-array-elements-equal-to-zero,leetcode,easy,2024-11-16T18:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3617,find-the-original-typed-string-i,leetcode,easy,2024-10-26T07:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3620,maximum-number-of-distinct-elements-after-operations,leetcode,medium,2024-12-21T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3621,minimum-operations-to-make-array-values-equal-to-k,leetcode,easy,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3622,maximum-frequency-of-an-element-after-performing-operations-i,leetcode,medium,2024-11-09T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3625,stone-removal-game,leetcode,easy,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3626,smallest-divisible-digit-product-i,leetcode,easy,2024-11-09T06:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3627,find-minimum-time-to-reach-last-room-i,leetcode,medium,2024-11-02T19:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3629,total-characters-in-string-after-transformations-i,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3631,count-k-reducible-numbers-less-than-n,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3632,button-with-longest-push-time,leetcode,easy,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3634,find-mirror-score-of-a-string,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3636,check-balanced-string,leetcode,easy,2024-11-02T19:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3637,count-number-of-balanced-permutations,leetcode,hard,2024-11-02T19:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3638,minimum-operations-to-make-character-frequencies-equal,leetcode,hard,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3639,zero-array-transformation-i,leetcode,medium,2024-11-16T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3644,minimum-positive-sum-subarray,leetcode,easy,2024-11-23T18:30:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3646,sum-of-good-subsequences,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3647,zero-array-transformation-iii,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3648,find-the-maximum-number-of-fruits-collected,leetcode,hard,2024-11-23T06:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3649,minimum-time-to-break-locks-i,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3651,transformed-array,leetcode,easy,2024-12-07T18:30:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3653,maximum-subarray-sum-with-length-divisible-by-k,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3654,minimum-array-sum,leetcode,medium,2024-11-23T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3655,digit-operations-to-make-two-integers-equal,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3656,minimum-number-of-operations-to-make-elements-in-array-distinct,leetcode,easy,2024-12-21T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3657,check-if-grid-can-be-cut-into-sections,leetcode,medium,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3658,minimize-the-maximum-adjacent-element-difference,leetcode,hard,2024-11-16T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3659,count-paths-with-the-given-xor-value,leetcode,medium,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3675,maximize-sum-of-weights-after-edge-removals,leetcode,hard,2024-11-23T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3676,smallest-number-with-all-set-bits,leetcode,easy,2024-11-30T18:30:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3680,count-connected-components-in-lcm-graph,leetcode,hard,2024-12-07T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3681,maximum-area-rectangle-with-point-constraints-i,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3682,count-the-number-of-arrays-with-k-matching-adjacent-elements,leetcode,hard,2024-12-28T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3683,find-the-lexicographically-largest-string-from-the-box-i,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3684,substring-matching-pattern,leetcode,easy,2025-01-04T06:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3685,count-subarrays-of-length-three-with-a-condition,leetcode,easy,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3686,count-beautiful-splits-in-an-array,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3688,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,leetcode,hard,2025-01-04T06:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3690,smallest-substring-with-identical-characters-i,leetcode,hard,2024-12-21T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3699,count-special-subsequences,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3700,subsequences-with-a-unique-middle-mode-i,leetcode,hard,2024-12-21T06:30:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3702,maximum-subarray-with-equal-products,leetcode,easy,2025-01-04T18:30:00,2025-01,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3715,maximum-coins-from-k-consecutive-bags,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,3716,longest-subsequence-with-decreasing-adjacent-difference,leetcode,medium,2025-01-04T06:30:00,2025-01,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc365_a,Leap Year,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc365_b,Second Best,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc365_c,Transportation Expenses,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc365_d,AtCoder Janken 3,atcoder,medium,2024-08-03T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc365_e,Xor Sigma Problem,atcoder,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_a,Election 2,atcoder,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_b,Vertical Writing,atcoder,easy,2024-08-10T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_c,Balls and Bag Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_d,Cuboid Sum Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_e,Manhattan Multifocal Ellipse,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_f,Maximum Composition,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc366_g,XOR Neighbors,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_a,Shout Everyday,atcoder,easy,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_b,Cut .0,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_c,Enumerate Sequences,atcoder,medium,2024-08-17T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_d,Pedometer,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_e,Permute K times,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_f,Rearrange Query,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc367_g,Sum of (XOR^K or 0),atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_a,Cut,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_b,Decrease 2 max elements,atcoder,easy,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_c,Triple Attack,atcoder,medium,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_d,Minimum Steiner Tree,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_e,Train Delay,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_f,Dividing Game,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc368_g,Add and Multiply Queries,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc369_a,369,atcoder,easy,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc369_b,Piano 3,atcoder,easy,2024-08-31T00:00:00,2024-08,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc369_c,Count Arithmetic Subarrays,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc369_d,Bonus EXP,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc369_e,Sightseeing Tour,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc369_g,As far as possible,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_a,Raise Both Hands,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_b,Binary Alchemy,atcoder,easy,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_c,Word Ladder,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_d,Cross Explosion,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_e,Avoid K Partition,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_f,Cake Division,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc370_g,Divisible by 3,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_a,Jiro,atcoder,easy,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_b,Taro,atcoder,easy,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_c,Make Isomorphic,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_d,1D Country,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_e,I Hate Sigma Problems,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_f,Takahashi in Narrow Road,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc371_g,Lexicographically Smallest Permutation,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc372_a,delete .,atcoder,easy,2024-09-21T00:00:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc372_c,Count ABC Again,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc372_d,Buildings,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc372_e,K,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc372_f,Teleporting Takahashi 2,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc372_g,Ax + By < C,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc373_a,September,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc373_b,1D Keyboard,atcoder,easy,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc373_c,Max Ai+Bj,atcoder,medium,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc373_e,How to Win the Election,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc373_f,Knapsack with Diminishing Values,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc373_g,No Cross Matching,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_a,Takahashi san 2,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_b,Unvarnished Report,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_c,Separated Lunch,atcoder,medium,2024-10-05T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_d,Laser Marking,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_e,Sensor Optimization Dilemma 2,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_f,Shipping,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc374_g,Only One Product Name,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_a,Seats,atcoder,easy,2024-10-12T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_b,Traveling Takahashi Problem,atcoder,easy,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_c,Spiral Rotation,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_d,ABA,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_e,3 Team Division,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_f,Road Blocked,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc375_g,Road Blocked 2,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_a,Candy Button,atcoder,easy,2024-10-19T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_b,Hands on Ring (Easy),atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_c,Prepare Another Box,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_d,Cycle,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_e,Max × Sum,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_f,Hands on Ring (Hard),atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc376_g,Treasure Hunting,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_a,Rearranging ABC,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_b,Avoid Rook Attack,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_c,Avoid Knight Attack,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_d,Many Segments 2,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_e,Permute K times 2,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_f,Avoid Queen Attack,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc377_g,Edit to Match,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_a,Pairing,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_b,Garbage Collection,atcoder,easy,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_c,Repeating,atcoder,medium,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_d,Count Simple Paths,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_e,Mod Sigma Problem,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_f,Add One Edge 2,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc378_g,Everlasting LIDS,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_a,Cyclic,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_b,Strawberries,atcoder,easy,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_c,Sowing Stones,atcoder,medium,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_d,Home Garden,atcoder,medium,2024-11-09T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_e,Sum of All Substrings,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_f,Buildings 2,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc379_g,Count Grid 3,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_a,123233,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_b,Hurdle Parsing,atcoder,easy,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_c,Move Segment,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_d,Strange Mirroring,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_e,1D Bucket Tool,atcoder,hard,2024-11-16T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_f,Exchange Game,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc380_g,Another Shuffle Window,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc381_a,11/22 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc381_b,1122 String,atcoder,easy,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc381_c,11/22 Substring,atcoder,medium,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc381_d,1122 Substring,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc381_e,11/22 Subsequence,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc382_a,Daily Cookie,atcoder,easy,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc382_b,Daily Cookie 2,atcoder,easy,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc382_c,Kaiten Sushi,atcoder,medium,2024-11-30T00:00:00,2024-11,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc382_d,Keep Distance,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc382_f,Falling Bars,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc382_g,Tile Distance 3,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc383_a,Humidifier 1,atcoder,easy,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc383_b,Humidifier 2,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc383_c,Humidifier 3,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc383_d,9 Divisors,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc383_e,Sum of Max Matching,atcoder,hard,2024-12-07T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_a,aaaadaa,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_b,ARC Division,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_c,Perfect Standings,atcoder,medium,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_d,Repeated Sequence,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_e,Takahashi is Slime 2,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_f,Double Sum 2,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc384_g,Abs Sum,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc385_a,Equally,atcoder,easy,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc385_b,Santa Claus 1,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc385_c,Illuminate Buildings,atcoder,medium,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc385_d,Santa Claus 2,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc385_e,Snowflake Tree,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc385_f,Visible Buildings,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc386_a,Full House 2,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc386_b,Calculator,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc386_c,Operate 1,atcoder,medium,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc386_d,Diagonal Separation,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc386_e,Maximize XOR,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,abc386_f,Operate K,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc181_a,Sort Left and Right,atcoder,medium,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc181_b,Annoying String Problem,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc181_c,Row and Column Order,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc181_d,Prefix Bubble Sort,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc182_a,Chmax Rush!,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc182_c,Sum of Number of Divisors of Product,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc182_d,Increment Decrement Again,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc182_e,Sum of Min of Mod of Linear,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc183_a,Median of Good Sequences,atcoder,medium,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc183_b,Near Assignment,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc183_c,Not Argmax,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc183_d,Keep Perfectly Matched,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc184_c,Mountain and Valley Folds,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc184_d,Erase Balls 2D,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc184_e,Accumulating Many Times,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc185_b,+1 and,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc185_c,Sum of Three Integers,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc185_d,Random Walk on Tree,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc185_e,Adjacent GCD,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc186_a,Underclued,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc186_b,Typical Permutation Descriptor,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc186_c,Ball and Box,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc186_d,Polish Mania,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc186_e,Missing Subsequence,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc187_b,Sum of CC,atcoder,hard,2024-11-17T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc188_a,ABC Symmetry,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc188_b,Symmetric Painting,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc188_c,Honest or Liar or Confused,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc188_d,Mirror and Order,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc189_a,Reversi 2,atcoder,medium,2024-12-08T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc189_b,Minimize Sum,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc189_c,Balls and Boxes,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+DeepSeek-Coder-V2-Lite-Instruct,Scenario.selfrepair,arc189_d,Takahashi is Slime,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3485,maximize-score-of-numbers-in-ranges,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3487,find-maximum-removals-from-source-string,leetcode,medium,2024-10-12T07:30:00,2024-10,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3495,k-th-nearest-obstacle-queries,leetcode,medium,2024-08-31T19:30:00,2024-08,0.0,False,1
@@ -244,6 +1130,270 @@ Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3526,minimum-number-of-flips-to-mak
 Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3527,alternating-groups-iii,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3528,reach-end-of-array-with-max-score,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3531,minimum-amount-of-damage-dealt-to-bob,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3532,time-taken-to-mark-all-nodes,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3533,snake-in-matrix,leetcode,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3534,count-almost-equal-pairs-i,leetcode,medium,2024-08-24T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3535,find-the-count-of-monotonic-pairs-i,leetcode,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3540,hash-divided-string,leetcode,medium,2024-08-31T07:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3541,report-spam-message,leetcode,medium,2024-09-21T19:30:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3543,count-substrings-that-satisfy-k-constraint-i,leetcode,easy,2024-08-17T19:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3548,find-the-count-of-good-integers,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3550,maximum-value-sum-by-placing-three-rooks-i,leetcode,hard,2024-08-17T07:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3551,maximum-xor-score-subarray-queries,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3552,find-the-largest-palindrome-divisible-by-k,leetcode,hard,2024-08-17T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3553,check-if-two-chessboard-squares-have-the-same-color,leetcode,easy,2024-08-31T19:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3555,final-array-state-after-k-multiplication-operations-i,leetcode,easy,2024-08-24T19:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3558,find-a-safe-walk-through-a-grid,leetcode,medium,2024-09-14T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3559,minimum-number-of-valid-strings-to-form-target-i,leetcode,medium,2024-09-14T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3560,maximum-number-of-moves-to-kill-all-pawns,leetcode,hard,2024-09-07T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3562,maximum-score-of-non-overlapping-intervals,leetcode,hard,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3563,select-cells-in-grid-with-maximum-score,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3566,find-the-sequence-of-strings-appeared-on-the-screen,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3567,convert-date-to-binary,leetcode,easy,2024-09-07T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3568,find-the-key-of-the-numbers,leetcode,easy,2024-08-31T07:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3570,count-of-substrings-containing-every-vowel-and-k-consonants-i,leetcode,medium,2024-09-28T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3571,length-of-the-longest-increasing-path,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3573,count-substrings-that-can-be-rearranged-to-contain-a-string-i,leetcode,medium,2024-09-21T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3575,find-the-maximum-sequence-value-of-array,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3579,maximum-possible-number-by-binary-concatenation,leetcode,medium,2024-10-05T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3580,find-the-occurrence-of-first-almost-equal-substring,leetcode,hard,2024-09-28T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3583,sorted-gcd-pair-queries,leetcode,hard,2024-10-05T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3584,find-the-lexicographically-smallest-valid-sequence,leetcode,medium,2024-09-28T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3587,maximum-points-tourist-can-earn,leetcode,medium,2024-10-26T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3588,count-the-number-of-winning-sequences,leetcode,hard,2024-10-12T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3591,shift-distance-between-two-strings,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3593,find-the-maximum-factor-score-of-array,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3594,identify-the-largest-outlier-in-an-array,leetcode,medium,2024-11-30T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3600,find-the-k-th-character-in-string-game-i,leetcode,easy,2024-09-28T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3603,check-if-dfs-strings-are-palindromes,leetcode,hard,2024-10-19T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3604,find-the-number-of-possible-ways-for-an-event,leetcode,hard,2024-10-12T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3605,construct-the-minimum-bitwise-array-i,leetcode,easy,2024-10-12T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3606,minimum-element-after-replacement-with-digit-sum,leetcode,easy,2024-09-28T07:30:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3607,minimum-division-operations-to-make-array-non-decreasing,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3608,find-the-number-of-subsequences-with-equal-gcd,leetcode,hard,2024-10-26T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3610,find-x-sum-of-all-k-long-subarrays-i,leetcode,easy,2024-10-12T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3612,adjacent-increasing-subarrays-detection-i,leetcode,easy,2024-11-09T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3613,maximize-amount-after-two-days-of-conversions,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3616,make-array-elements-equal-to-zero,leetcode,easy,2024-11-16T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3617,find-the-original-typed-string-i,leetcode,easy,2024-10-26T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3620,maximum-number-of-distinct-elements-after-operations,leetcode,medium,2024-12-21T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3621,minimum-operations-to-make-array-values-equal-to-k,leetcode,easy,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3622,maximum-frequency-of-an-element-after-performing-operations-i,leetcode,medium,2024-11-09T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3625,stone-removal-game,leetcode,easy,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3626,smallest-divisible-digit-product-i,leetcode,easy,2024-11-09T06:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3627,find-minimum-time-to-reach-last-room-i,leetcode,medium,2024-11-02T19:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3629,total-characters-in-string-after-transformations-i,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3631,count-k-reducible-numbers-less-than-n,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3632,button-with-longest-push-time,leetcode,easy,2024-12-14T18:30:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3634,find-mirror-score-of-a-string,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3636,check-balanced-string,leetcode,easy,2024-11-02T19:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3637,count-number-of-balanced-permutations,leetcode,hard,2024-11-02T19:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3638,minimum-operations-to-make-character-frequencies-equal,leetcode,hard,2024-12-14T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3639,zero-array-transformation-i,leetcode,medium,2024-11-16T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3644,minimum-positive-sum-subarray,leetcode,easy,2024-11-23T18:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3646,sum-of-good-subsequences,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3647,zero-array-transformation-iii,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3648,find-the-maximum-number-of-fruits-collected,leetcode,hard,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3649,minimum-time-to-break-locks-i,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3651,transformed-array,leetcode,easy,2024-12-07T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3653,maximum-subarray-sum-with-length-divisible-by-k,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3654,minimum-array-sum,leetcode,medium,2024-11-23T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3655,digit-operations-to-make-two-integers-equal,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3656,minimum-number-of-operations-to-make-elements-in-array-distinct,leetcode,easy,2024-12-21T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3657,check-if-grid-can-be-cut-into-sections,leetcode,medium,2024-12-21T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3658,minimize-the-maximum-adjacent-element-difference,leetcode,hard,2024-11-16T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3659,count-paths-with-the-given-xor-value,leetcode,medium,2024-12-21T06:30:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3675,maximize-sum-of-weights-after-edge-removals,leetcode,hard,2024-11-23T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3676,smallest-number-with-all-set-bits,leetcode,easy,2024-11-30T18:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3680,count-connected-components-in-lcm-graph,leetcode,hard,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3681,maximum-area-rectangle-with-point-constraints-i,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3682,count-the-number-of-arrays-with-k-matching-adjacent-elements,leetcode,hard,2024-12-28T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3683,find-the-lexicographically-largest-string-from-the-box-i,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3684,substring-matching-pattern,leetcode,easy,2025-01-04T06:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3685,count-subarrays-of-length-three-with-a-condition,leetcode,easy,2024-12-21T06:30:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3686,count-beautiful-splits-in-an-array,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3688,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,leetcode,hard,2025-01-04T06:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3690,smallest-substring-with-identical-characters-i,leetcode,hard,2024-12-21T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3699,count-special-subsequences,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3700,subsequences-with-a-unique-middle-mode-i,leetcode,hard,2024-12-21T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3702,maximum-subarray-with-equal-products,leetcode,easy,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3715,maximum-coins-from-k-consecutive-bags,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,3716,longest-subsequence-with-decreasing-adjacent-difference,leetcode,medium,2025-01-04T06:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc365_a,Leap Year,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc365_b,Second Best,atcoder,easy,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc365_c,Transportation Expenses,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc365_d,AtCoder Janken 3,atcoder,medium,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc365_e,Xor Sigma Problem,atcoder,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_a,Election 2,atcoder,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_b,Vertical Writing,atcoder,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_c,Balls and Bag Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_d,Cuboid Sum Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_e,Manhattan Multifocal Ellipse,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_f,Maximum Composition,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc366_g,XOR Neighbors,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_a,Shout Everyday,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_b,Cut .0,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_c,Enumerate Sequences,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_d,Pedometer,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_e,Permute K times,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_f,Rearrange Query,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc367_g,Sum of (XOR^K or 0),atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_a,Cut,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_b,Decrease 2 max elements,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_c,Triple Attack,atcoder,medium,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_d,Minimum Steiner Tree,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_e,Train Delay,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_f,Dividing Game,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc368_g,Add and Multiply Queries,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc369_a,369,atcoder,easy,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc369_b,Piano 3,atcoder,easy,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc369_c,Count Arithmetic Subarrays,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc369_d,Bonus EXP,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc369_e,Sightseeing Tour,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc369_g,As far as possible,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_a,Raise Both Hands,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_b,Binary Alchemy,atcoder,easy,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_c,Word Ladder,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_d,Cross Explosion,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_e,Avoid K Partition,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_f,Cake Division,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc370_g,Divisible by 3,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_a,Jiro,atcoder,easy,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_b,Taro,atcoder,easy,2024-09-14T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_c,Make Isomorphic,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_d,1D Country,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_e,I Hate Sigma Problems,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_f,Takahashi in Narrow Road,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc371_g,Lexicographically Smallest Permutation,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc372_a,delete .,atcoder,easy,2024-09-21T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc372_c,Count ABC Again,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc372_d,Buildings,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc372_e,K,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc372_f,Teleporting Takahashi 2,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc372_g,Ax + By < C,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc373_a,September,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc373_b,1D Keyboard,atcoder,easy,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc373_c,Max Ai+Bj,atcoder,medium,2024-09-28T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc373_e,How to Win the Election,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc373_f,Knapsack with Diminishing Values,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc373_g,No Cross Matching,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_a,Takahashi san 2,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_b,Unvarnished Report,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_c,Separated Lunch,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_d,Laser Marking,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_e,Sensor Optimization Dilemma 2,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_f,Shipping,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc374_g,Only One Product Name,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_a,Seats,atcoder,easy,2024-10-12T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_b,Traveling Takahashi Problem,atcoder,easy,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_c,Spiral Rotation,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_d,ABA,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_e,3 Team Division,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_f,Road Blocked,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc375_g,Road Blocked 2,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_a,Candy Button,atcoder,easy,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_b,Hands on Ring (Easy),atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_c,Prepare Another Box,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_d,Cycle,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_e,Max × Sum,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_f,Hands on Ring (Hard),atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc376_g,Treasure Hunting,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_a,Rearranging ABC,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_b,Avoid Rook Attack,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_c,Avoid Knight Attack,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_d,Many Segments 2,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_e,Permute K times 2,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_f,Avoid Queen Attack,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc377_g,Edit to Match,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_a,Pairing,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_b,Garbage Collection,atcoder,easy,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_c,Repeating,atcoder,medium,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_d,Count Simple Paths,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_e,Mod Sigma Problem,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_f,Add One Edge 2,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc378_g,Everlasting LIDS,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_a,Cyclic,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_b,Strawberries,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_c,Sowing Stones,atcoder,medium,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_d,Home Garden,atcoder,medium,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_e,Sum of All Substrings,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_f,Buildings 2,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc379_g,Count Grid 3,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_a,123233,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_b,Hurdle Parsing,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_c,Move Segment,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_d,Strange Mirroring,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_e,1D Bucket Tool,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_f,Exchange Game,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc380_g,Another Shuffle Window,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc381_a,11/22 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc381_b,1122 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc381_c,11/22 Substring,atcoder,medium,2024-11-22T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc381_d,1122 Substring,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc381_e,11/22 Subsequence,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc382_a,Daily Cookie,atcoder,easy,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc382_b,Daily Cookie 2,atcoder,easy,2024-11-30T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc382_c,Kaiten Sushi,atcoder,medium,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc382_d,Keep Distance,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc382_f,Falling Bars,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc382_g,Tile Distance 3,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc383_a,Humidifier 1,atcoder,easy,2024-12-07T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc383_b,Humidifier 2,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc383_c,Humidifier 3,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc383_d,9 Divisors,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc383_e,Sum of Max Matching,atcoder,hard,2024-12-07T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_a,aaaadaa,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_b,ARC Division,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_c,Perfect Standings,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_d,Repeated Sequence,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_e,Takahashi is Slime 2,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_f,Double Sum 2,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc384_g,Abs Sum,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc385_a,Equally,atcoder,easy,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc385_b,Santa Claus 1,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc385_c,Illuminate Buildings,atcoder,medium,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc385_d,Santa Claus 2,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc385_e,Snowflake Tree,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc385_f,Visible Buildings,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc386_a,Full House 2,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc386_b,Calculator,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc386_c,Operate 1,atcoder,medium,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc386_d,Diagonal Separation,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc386_e,Maximize XOR,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,abc386_f,Operate K,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc181_a,Sort Left and Right,atcoder,medium,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc181_b,Annoying String Problem,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc181_c,Row and Column Order,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc181_d,Prefix Bubble Sort,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc182_a,Chmax Rush!,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc182_c,Sum of Number of Divisors of Product,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc182_d,Increment Decrement Again,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc182_e,Sum of Min of Mod of Linear,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc183_a,Median of Good Sequences,atcoder,medium,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc183_b,Near Assignment,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc183_c,Not Argmax,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc183_d,Keep Perfectly Matched,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc184_c,Mountain and Valley Folds,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc184_d,Erase Balls 2D,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc184_e,Accumulating Many Times,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc185_b,+1 and,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc185_c,Sum of Three Integers,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc185_d,Random Walk on Tree,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc185_e,Adjacent GCD,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc186_a,Underclued,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc186_b,Typical Permutation Descriptor,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc186_c,Ball and Box,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc186_d,Polish Mania,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc186_e,Missing Subsequence,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc187_b,Sum of CC,atcoder,hard,2024-11-17T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc188_a,ABC Symmetry,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc188_b,Symmetric Painting,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc188_c,Honest or Liar or Confused,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc188_d,Mirror and Order,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc189_a,Reversi 2,atcoder,medium,2024-12-08T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc189_b,Minimize Sum,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc189_c,Balls and Boxes,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.codegeneration,arc189_d,Takahashi is Slime,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3485,maximize-score-of-numbers-in-ranges,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3487,find-maximum-removals-from-source-string,leetcode,medium,2024-10-12T07:30:00,2024-10,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3495,k-th-nearest-obstacle-queries,leetcode,medium,2024-08-31T19:30:00,2024-08,0.0,False,1
@@ -259,3 +1409,267 @@ Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3526,minimum-number-of-flips-to-make-bi
 Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3527,alternating-groups-iii,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3528,reach-end-of-array-with-max-score,leetcode,medium,2024-09-07T19:30:00,2024-09,0.0,False,1
 Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3531,minimum-amount-of-damage-dealt-to-bob,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3532,time-taken-to-mark-all-nodes,leetcode,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3533,snake-in-matrix,leetcode,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3534,count-almost-equal-pairs-i,leetcode,medium,2024-08-24T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3535,find-the-count-of-monotonic-pairs-i,leetcode,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3540,hash-divided-string,leetcode,medium,2024-08-31T07:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3541,report-spam-message,leetcode,medium,2024-09-21T19:30:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3543,count-substrings-that-satisfy-k-constraint-i,leetcode,easy,2024-08-17T19:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3548,find-the-count-of-good-integers,leetcode,hard,2024-08-31T07:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3550,maximum-value-sum-by-placing-three-rooks-i,leetcode,hard,2024-08-17T07:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3551,maximum-xor-score-subarray-queries,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3552,find-the-largest-palindrome-divisible-by-k,leetcode,hard,2024-08-17T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3553,check-if-two-chessboard-squares-have-the-same-color,leetcode,easy,2024-08-31T19:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3555,final-array-state-after-k-multiplication-operations-i,leetcode,easy,2024-08-24T19:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3558,find-a-safe-walk-through-a-grid,leetcode,medium,2024-09-14T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3559,minimum-number-of-valid-strings-to-form-target-i,leetcode,medium,2024-09-14T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3560,maximum-number-of-moves-to-kill-all-pawns,leetcode,hard,2024-09-07T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3562,maximum-score-of-non-overlapping-intervals,leetcode,hard,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3563,select-cells-in-grid-with-maximum-score,leetcode,hard,2024-08-31T19:30:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3566,find-the-sequence-of-strings-appeared-on-the-screen,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3567,convert-date-to-binary,leetcode,easy,2024-09-07T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3568,find-the-key-of-the-numbers,leetcode,easy,2024-08-31T07:30:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3570,count-of-substrings-containing-every-vowel-and-k-consonants-i,leetcode,medium,2024-09-28T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3571,length-of-the-longest-increasing-path,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3573,count-substrings-that-can-be-rearranged-to-contain-a-string-i,leetcode,medium,2024-09-21T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3575,find-the-maximum-sequence-value-of-array,leetcode,hard,2024-09-14T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3579,maximum-possible-number-by-binary-concatenation,leetcode,medium,2024-10-05T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3580,find-the-occurrence-of-first-almost-equal-substring,leetcode,hard,2024-09-28T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3583,sorted-gcd-pair-queries,leetcode,hard,2024-10-05T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3584,find-the-lexicographically-smallest-valid-sequence,leetcode,medium,2024-09-28T07:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3587,maximum-points-tourist-can-earn,leetcode,medium,2024-10-26T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3588,count-the-number-of-winning-sequences,leetcode,hard,2024-10-12T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3591,shift-distance-between-two-strings,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3593,find-the-maximum-factor-score-of-array,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3594,identify-the-largest-outlier-in-an-array,leetcode,medium,2024-11-30T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3600,find-the-k-th-character-in-string-game-i,leetcode,easy,2024-09-28T19:30:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3603,check-if-dfs-strings-are-palindromes,leetcode,hard,2024-10-19T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3604,find-the-number-of-possible-ways-for-an-event,leetcode,hard,2024-10-12T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3605,construct-the-minimum-bitwise-array-i,leetcode,easy,2024-10-12T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3606,minimum-element-after-replacement-with-digit-sum,leetcode,easy,2024-09-28T07:30:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3607,minimum-division-operations-to-make-array-non-decreasing,leetcode,medium,2024-10-19T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3608,find-the-number-of-subsequences-with-equal-gcd,leetcode,hard,2024-10-26T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3610,find-x-sum-of-all-k-long-subarrays-i,leetcode,easy,2024-10-12T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3612,adjacent-increasing-subarrays-detection-i,leetcode,easy,2024-11-09T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3613,maximize-amount-after-two-days-of-conversions,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3616,make-array-elements-equal-to-zero,leetcode,easy,2024-11-16T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3617,find-the-original-typed-string-i,leetcode,easy,2024-10-26T07:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3620,maximum-number-of-distinct-elements-after-operations,leetcode,medium,2024-12-21T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3621,minimum-operations-to-make-array-values-equal-to-k,leetcode,easy,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3622,maximum-frequency-of-an-element-after-performing-operations-i,leetcode,medium,2024-11-09T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3625,stone-removal-game,leetcode,easy,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3626,smallest-divisible-digit-product-i,leetcode,easy,2024-11-09T06:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3627,find-minimum-time-to-reach-last-room-i,leetcode,medium,2024-11-02T19:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3629,total-characters-in-string-after-transformations-i,leetcode,medium,2024-10-26T19:30:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3631,count-k-reducible-numbers-less-than-n,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3632,button-with-longest-push-time,leetcode,easy,2024-12-14T18:30:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3634,find-mirror-score-of-a-string,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3636,check-balanced-string,leetcode,easy,2024-11-02T19:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3637,count-number-of-balanced-permutations,leetcode,hard,2024-11-02T19:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3638,minimum-operations-to-make-character-frequencies-equal,leetcode,hard,2024-12-14T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3639,zero-array-transformation-i,leetcode,medium,2024-11-16T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3644,minimum-positive-sum-subarray,leetcode,easy,2024-11-23T18:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3646,sum-of-good-subsequences,leetcode,hard,2024-11-09T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3647,zero-array-transformation-iii,leetcode,medium,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3648,find-the-maximum-number-of-fruits-collected,leetcode,hard,2024-11-23T06:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3649,minimum-time-to-break-locks-i,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3651,transformed-array,leetcode,easy,2024-12-07T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3653,maximum-subarray-sum-with-length-divisible-by-k,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3654,minimum-array-sum,leetcode,medium,2024-11-23T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3655,digit-operations-to-make-two-integers-equal,leetcode,medium,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3656,minimum-number-of-operations-to-make-elements-in-array-distinct,leetcode,easy,2024-12-21T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3657,check-if-grid-can-be-cut-into-sections,leetcode,medium,2024-12-21T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3658,minimize-the-maximum-adjacent-element-difference,leetcode,hard,2024-11-16T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3659,count-paths-with-the-given-xor-value,leetcode,medium,2024-12-21T06:30:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3675,maximize-sum-of-weights-after-edge-removals,leetcode,hard,2024-11-23T18:30:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3676,smallest-number-with-all-set-bits,leetcode,easy,2024-11-30T18:30:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3680,count-connected-components-in-lcm-graph,leetcode,hard,2024-12-07T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3681,maximum-area-rectangle-with-point-constraints-i,leetcode,medium,2024-12-07T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3682,count-the-number-of-arrays-with-k-matching-adjacent-elements,leetcode,hard,2024-12-28T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3683,find-the-lexicographically-largest-string-from-the-box-i,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3684,substring-matching-pattern,leetcode,easy,2025-01-04T06:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3685,count-subarrays-of-length-three-with-a-condition,leetcode,easy,2024-12-21T06:30:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3686,count-beautiful-splits-in-an-array,leetcode,medium,2024-12-14T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3688,maximize-subarray-sum-after-removing-all-occurrences-of-one-element,leetcode,hard,2025-01-04T06:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3690,smallest-substring-with-identical-characters-i,leetcode,hard,2024-12-21T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3699,count-special-subsequences,leetcode,medium,2024-12-28T18:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3700,subsequences-with-a-unique-middle-mode-i,leetcode,hard,2024-12-21T06:30:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3702,maximum-subarray-with-equal-products,leetcode,easy,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3715,maximum-coins-from-k-consecutive-bags,leetcode,medium,2025-01-04T18:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,3716,longest-subsequence-with-decreasing-adjacent-difference,leetcode,medium,2025-01-04T06:30:00,2025-01,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc365_a,Leap Year,atcoder,easy,2024-08-03T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc365_b,Second Best,atcoder,easy,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc365_c,Transportation Expenses,atcoder,medium,2024-08-03T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc365_d,AtCoder Janken 3,atcoder,medium,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc365_e,Xor Sigma Problem,atcoder,hard,2024-08-03T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_a,Election 2,atcoder,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_b,Vertical Writing,atcoder,easy,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_c,Balls and Bag Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_d,Cuboid Sum Query,atcoder,medium,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_e,Manhattan Multifocal Ellipse,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_f,Maximum Composition,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc366_g,XOR Neighbors,atcoder,hard,2024-08-10T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_a,Shout Everyday,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_b,Cut .0,atcoder,easy,2024-08-17T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_c,Enumerate Sequences,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_d,Pedometer,atcoder,medium,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_e,Permute K times,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_f,Rearrange Query,atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc367_g,Sum of (XOR^K or 0),atcoder,hard,2024-08-17T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_a,Cut,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_b,Decrease 2 max elements,atcoder,easy,2024-08-24T00:00:00,2024-08,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_c,Triple Attack,atcoder,medium,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_d,Minimum Steiner Tree,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_e,Train Delay,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_f,Dividing Game,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc368_g,Add and Multiply Queries,atcoder,hard,2024-08-24T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc369_a,369,atcoder,easy,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc369_b,Piano 3,atcoder,easy,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc369_c,Count Arithmetic Subarrays,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc369_d,Bonus EXP,atcoder,medium,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc369_e,Sightseeing Tour,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc369_g,As far as possible,atcoder,hard,2024-08-31T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_a,Raise Both Hands,atcoder,easy,2024-09-07T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_b,Binary Alchemy,atcoder,easy,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_c,Word Ladder,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_d,Cross Explosion,atcoder,medium,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_e,Avoid K Partition,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_f,Cake Division,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc370_g,Divisible by 3,atcoder,hard,2024-09-07T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_a,Jiro,atcoder,easy,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_b,Taro,atcoder,easy,2024-09-14T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_c,Make Isomorphic,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_d,1D Country,atcoder,medium,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_e,I Hate Sigma Problems,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_f,Takahashi in Narrow Road,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc371_g,Lexicographically Smallest Permutation,atcoder,hard,2024-09-14T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc372_a,delete .,atcoder,easy,2024-09-21T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc372_c,Count ABC Again,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc372_d,Buildings,atcoder,medium,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc372_e,K,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc372_f,Teleporting Takahashi 2,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc372_g,Ax + By < C,atcoder,hard,2024-09-21T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc373_a,September,atcoder,easy,2024-09-28T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc373_b,1D Keyboard,atcoder,easy,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc373_c,Max Ai+Bj,atcoder,medium,2024-09-28T00:00:00,2024-09,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc373_e,How to Win the Election,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc373_f,Knapsack with Diminishing Values,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc373_g,No Cross Matching,atcoder,hard,2024-09-28T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_a,Takahashi san 2,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_b,Unvarnished Report,atcoder,easy,2024-10-05T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_c,Separated Lunch,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_d,Laser Marking,atcoder,medium,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_e,Sensor Optimization Dilemma 2,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_f,Shipping,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc374_g,Only One Product Name,atcoder,hard,2024-10-05T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_a,Seats,atcoder,easy,2024-10-12T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_b,Traveling Takahashi Problem,atcoder,easy,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_c,Spiral Rotation,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_d,ABA,atcoder,medium,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_e,3 Team Division,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_f,Road Blocked,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc375_g,Road Blocked 2,atcoder,hard,2024-10-12T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_a,Candy Button,atcoder,easy,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_b,Hands on Ring (Easy),atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_c,Prepare Another Box,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_d,Cycle,atcoder,medium,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_e,Max × Sum,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_f,Hands on Ring (Hard),atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc376_g,Treasure Hunting,atcoder,hard,2024-10-19T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_a,Rearranging ABC,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_b,Avoid Rook Attack,atcoder,easy,2024-10-26T00:00:00,2024-10,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_c,Avoid Knight Attack,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_d,Many Segments 2,atcoder,medium,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_e,Permute K times 2,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_f,Avoid Queen Attack,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc377_g,Edit to Match,atcoder,hard,2024-10-26T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_a,Pairing,atcoder,easy,2024-11-02T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_b,Garbage Collection,atcoder,easy,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_c,Repeating,atcoder,medium,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_d,Count Simple Paths,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_e,Mod Sigma Problem,atcoder,hard,2024-11-02T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_f,Add One Edge 2,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc378_g,Everlasting LIDS,atcoder,hard,2024-11-02T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_a,Cyclic,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_b,Strawberries,atcoder,easy,2024-11-09T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_c,Sowing Stones,atcoder,medium,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_d,Home Garden,atcoder,medium,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_e,Sum of All Substrings,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_f,Buildings 2,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc379_g,Count Grid 3,atcoder,hard,2024-11-09T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_a,123233,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_b,Hurdle Parsing,atcoder,easy,2024-11-16T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_c,Move Segment,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_d,Strange Mirroring,atcoder,medium,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_e,1D Bucket Tool,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_f,Exchange Game,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc380_g,Another Shuffle Window,atcoder,hard,2024-11-16T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc381_a,11/22 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc381_b,1122 String,atcoder,easy,2024-11-22T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc381_c,11/22 Substring,atcoder,medium,2024-11-22T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc381_d,1122 Substring,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc381_e,11/22 Subsequence,atcoder,hard,2024-11-22T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc382_a,Daily Cookie,atcoder,easy,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc382_b,Daily Cookie 2,atcoder,easy,2024-11-30T00:00:00,2024-11,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc382_c,Kaiten Sushi,atcoder,medium,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc382_d,Keep Distance,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc382_f,Falling Bars,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc382_g,Tile Distance 3,atcoder,hard,2024-11-30T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc383_a,Humidifier 1,atcoder,easy,2024-12-07T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc383_b,Humidifier 2,atcoder,medium,2024-12-07T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc383_c,Humidifier 3,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc383_d,9 Divisors,atcoder,medium,2024-12-07T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc383_e,Sum of Max Matching,atcoder,hard,2024-12-07T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_a,aaaadaa,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_b,ARC Division,atcoder,easy,2024-12-14T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_c,Perfect Standings,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_d,Repeated Sequence,atcoder,medium,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_e,Takahashi is Slime 2,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_f,Double Sum 2,atcoder,hard,2024-12-14T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc384_g,Abs Sum,atcoder,hard,2024-12-14T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc385_a,Equally,atcoder,easy,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc385_b,Santa Claus 1,atcoder,easy,2024-12-21T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc385_c,Illuminate Buildings,atcoder,medium,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc385_d,Santa Claus 2,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc385_e,Snowflake Tree,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc385_f,Visible Buildings,atcoder,hard,2024-12-21T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc386_a,Full House 2,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc386_b,Calculator,atcoder,easy,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc386_c,Operate 1,atcoder,medium,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc386_d,Diagonal Separation,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc386_e,Maximize XOR,atcoder,hard,2024-12-28T00:00:00,2024-12,1.0,True,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,abc386_f,Operate K,atcoder,hard,2024-12-28T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc181_a,Sort Left and Right,atcoder,medium,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc181_b,Annoying String Problem,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc181_c,Row and Column Order,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc181_d,Prefix Bubble Sort,atcoder,hard,2024-08-04T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc182_a,Chmax Rush!,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc182_c,Sum of Number of Divisors of Product,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc182_d,Increment Decrement Again,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc182_e,Sum of Min of Mod of Linear,atcoder,hard,2024-08-11T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc183_a,Median of Good Sequences,atcoder,medium,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc183_b,Near Assignment,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc183_c,Not Argmax,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc183_d,Keep Perfectly Matched,atcoder,hard,2024-08-25T00:00:00,2024-08,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc184_c,Mountain and Valley Folds,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc184_d,Erase Balls 2D,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc184_e,Accumulating Many Times,atcoder,hard,2024-09-22T00:00:00,2024-09,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc185_b,+1 and,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc185_c,Sum of Three Integers,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc185_d,Random Walk on Tree,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc185_e,Adjacent GCD,atcoder,hard,2024-10-13T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc186_a,Underclued,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc186_b,Typical Permutation Descriptor,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc186_c,Ball and Box,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc186_d,Polish Mania,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc186_e,Missing Subsequence,atcoder,hard,2024-10-27T00:00:00,2024-10,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc187_b,Sum of CC,atcoder,hard,2024-11-17T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc188_a,ABC Symmetry,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc188_b,Symmetric Painting,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc188_c,Honest or Liar or Confused,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc188_d,Mirror and Order,atcoder,hard,2024-11-23T00:00:00,2024-11,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc189_a,Reversi 2,atcoder,medium,2024-12-08T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc189_b,Minimize Sum,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc189_c,Balls and Boxes,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1
+Qwen2.5-Coder-Ins-7B,Scenario.selfrepair,arc189_d,Takahashi is Slime,atcoder,hard,2024-12-08T00:00:00,2024-12,0.0,False,1

@@ -9,7 +9,7 @@ It is intentionally separate from the original LiveCodeBench repository. It cont
 - `data/`: CSV files used for the secondary analysis in the report.
 - `scripts/make_figures.py`: recreates the report figures from the CSV files.
 - `scripts/run_lcb_experiments.sh`: a Vast.ai/A100-ready wrapper for running LiveCodeBench code generation and self-repair.
-- `scripts/lcb/`: patched helper scripts for Qwen2.5-Coder-7B-Instruct, DeepSeek-Coder-V2-Lite-Instruct, and a safe 100-problem Claude Sonnet 4.6 API run.
+- `scripts/lcb/`: patched helper scripts for Qwen2.5-Coder-7B-Instruct, DeepSeek-Coder-V2-Lite-Instruct, and Claude Sonnet 4.6 API runs.
 - `notebooks/LiveCodeBench_Qwen_DeepSeek_Run.ipynb`: the notebook workflow for Vast.ai, Colab, or plain Jupyter.
 - `requirements.txt`: Python packages for the lightweight analysis scripts.
 
@@ -21,12 +21,11 @@ After GPU/API setup on Vast.ai, the repository scripts were also executed agains
 
 Executed run artifacts are tracked under `results/livecodebench/`:
 
-- Claude Sonnet 4.6 code generation: 100 problems, pass@1 = 0.86.
-- Claude Sonnet 4.6 self-repair: 100 problems, pass@1 = 0.86.
-- Qwen2.5-Coder-7B-Instruct code generation/self-repair smoke runs: 15 problems each, pass@1 = 0.0667 / 0.0667.
-- DeepSeek-Coder-V2-Lite-Instruct code generation/self-repair smoke runs: 15 problems each, pass@1 = 0.0000 / 0.0667.
+- Claude Sonnet 4.6 code generation/self-repair: 279 problems, pass@1 = 0.6631 / 0.6989.
+- Qwen2.5-Coder-7B-Instruct code generation/self-repair: 279 problems, pass@1 = 0.1756 / 0.1756.
+- DeepSeek-Coder-V2-Lite-Instruct code generation/self-repair: 279 problems, pass@1 = 0.1756 / 0.1900.
 
-The Qwen and DeepSeek rows are smoke/debug checks, not full 279-problem runs. The Sonnet rows are the cost-capped 100-problem API sample requested for the final report.
+All three model rows above use the same filtered LiveCodeBench window. Earlier 15-problem smoke checks and the initial 100-problem Sonnet sample were superseded by these full filtered-window runs.
 
 Qwen and DeepSeek are run as regular instruct/code models through vLLM. They are not QwQ/DeepSeek-R1-style reasoning models, and the scripts do not enable any extended-thinking mode.
 

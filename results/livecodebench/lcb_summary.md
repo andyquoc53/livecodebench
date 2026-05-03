@@ -4,12 +4,12 @@
 
 | model | scenario | pass@1 | computed pass rate | n |
 |---|---:|---:|---:|---:|
-| Claude-Sonnet-4.6 | Scenario.codegeneration | 0.8600 | 0.8600 | 100 |
-| Claude-Sonnet-4.6 | Scenario.selfrepair | 0.8600 | 0.8600 | 100 |
-| DeepSeek-Coder-V2-Lite-Instruct | Scenario.codegeneration | 0.0000 | 0.0000 | 15 |
-| DeepSeek-Coder-V2-Lite-Instruct | Scenario.selfrepair | 0.0667 | 0.0667 | 15 |
-| Qwen2.5-Coder-Ins-7B | Scenario.codegeneration | 0.0667 | 0.0667 | 15 |
-| Qwen2.5-Coder-Ins-7B | Scenario.selfrepair | 0.0667 | 0.0667 | 15 |
+| Claude-Sonnet-4.6 | Scenario.codegeneration | 0.6631 | 0.6631 | 279 |
+| Claude-Sonnet-4.6 | Scenario.selfrepair | 0.6989 | 0.6989 | 279 |
+| DeepSeek-Coder-V2-Lite-Instruct | Scenario.codegeneration | 0.1756 | 0.1756 | 279 |
+| DeepSeek-Coder-V2-Lite-Instruct | Scenario.selfrepair | 0.1900 | 0.1900 | 279 |
+| Qwen2.5-Coder-Ins-7B | Scenario.codegeneration | 0.1756 | 0.1756 | 279 |
+| Qwen2.5-Coder-Ins-7B | Scenario.selfrepair | 0.1756 | 0.1756 | 279 |
 
 Generated files:
 
