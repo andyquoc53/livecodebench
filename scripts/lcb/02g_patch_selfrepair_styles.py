@@ -37,6 +37,22 @@ SELF_REPAIR_PATCH = """    elif LanguageModelStyle == LMStyle.CodeQwenInstruct:
 
 """
 
+METADATA_ANCHOR = """    metadata = json.loads(metadata)
+    if "error_code" not in metadata:
+        return ""
+"""
+METADATA_PATCH = """    metadata = json.loads(metadata)
+    if isinstance(metadata, list):
+        metadata = metadata[0] if metadata else {}
+
+    def field(name: str, default: str = "not recorded"):
+        value = metadata.get(name, default)
+        return default if value in (None, "") else value
+
+    if "error_code" not in metadata:
+        return ""
+"""
+
 
 def patch_file(path: Path, old: str, new: str, marker: str) -> bool:
     text = path.read_text()
@@ -49,6 +65,31 @@ def patch_file(path: Path, old: str, new: str, marker: str) -> bool:
     backup.write_text(text)
     path.write_text(text.replace(old, old + new, 1))
     print(f"Patched {path}")
+    print(f"Backup saved to {backup}")
+    return True
+
+
+def patch_metadata_fields(path: Path) -> bool:
+    text = path.read_text()
+    if "def field(name: str, default: str = \"not recorded\"):" in text:
+        print("self_repair.py already handles missing self-repair metadata; no change needed.")
+        return False
+    if METADATA_ANCHOR not in text:
+        raise SystemExit(f"Could not find metadata block in {path}; patch manually.")
+
+    replacements = {
+        "metadata['error']": "field('error')",
+        "metadata['inputs']": "field('inputs')",
+        "metadata['output']": "field('output')",
+        "metadata['expected']": "field('expected')",
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+
+    backup = path.with_suffix(".py.bak")
+    backup.write_text(path.read_text())
+    path.write_text(text.replace(METADATA_ANCHOR, METADATA_PATCH, 1))
+    print(f"Patched {path} to tolerate missing self-repair metadata.")
     print(f"Backup saved to {backup}")
     return True
 
@@ -68,6 +109,7 @@ def main() -> None:
 
     patch_file(lm_styles, ENUM_ANCHOR, ENUM_PATCH, '    MagiCoder = "MagiCoder"')
     patch_file(self_repair, SELF_REPAIR_ANCHOR, SELF_REPAIR_PATCH, "LMStyle.CodeQwenInstruct")
+    patch_metadata_fields(self_repair)
 
 
 if __name__ == "__main__":
