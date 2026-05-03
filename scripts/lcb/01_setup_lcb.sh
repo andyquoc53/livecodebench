@@ -12,20 +12,29 @@ if [[ ! -f "pyproject.toml" || ! -d "lcb_runner" ]]; then
   exit 1
 fi
 
-python3 -m pip install -U pip
-python3 -m pip install -U uv
-uv --version
+if ! command -v uv >/dev/null 2>&1; then
+  python3 -m pip install --user -U uv || python3 -m pip install --user -U --break-system-packages uv
+  USER_BIN="$(python3 - <<'PY'
+import site
+print(site.USER_BASE + "/bin")
+PY
+)"
+  export PATH="$USER_BIN:$PATH"
+fi
+
+UV_BIN="${UV_BIN:-$(command -v uv)}"
+"$UV_BIN" --version
 
 # Official LiveCodeBench setup.
-uv venv --python 3.11
+"$UV_BIN" venv --python 3.11
 # shellcheck disable=SC1091
 source .venv/bin/activate
-uv pip install -e .
+"$UV_BIN" pip install -e .
 
 # Extra dependencies commonly needed for open HF/vLLM model inference.
 # The exact versions are intentionally not pinned so Colab/CUDA can resolve compatible wheels.
-uv pip install -U "transformers>=4.37.0" accelerate datasets huggingface_hub hf_transfer safetensors sentencepiece protobuf
-uv pip install -U vllm || echo "vLLM install failed; check CUDA/PyTorch compatibility for your runtime."
+"$UV_BIN" pip install -U "transformers>=4.37.0" accelerate datasets huggingface_hub hf_transfer safetensors sentencepiece protobuf
+"$UV_BIN" pip install -U vllm || echo "vLLM install failed; check CUDA/PyTorch compatibility for your runtime."
 
 # Reduce vLLM memory pressure from long-context model configs and keep self-repair on the same date window.
 python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02b_patch_vllm_max_model_len.py" . || true
