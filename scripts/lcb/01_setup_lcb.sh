@@ -60,6 +60,7 @@ python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02c_patch_selfrepair_date_
 python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02d_patch_claude_sonnet_4_6.py" . || true
 python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02e_patch_debug_sample_limit.py" . || true
 python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02f_patch_datasets_trust_remote_code.py" . || true
+python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02g_patch_selfrepair_styles.py" . || true
 
 python - <<'PY'
 import torch, sys
