@@ -1,0 +1,44 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{acl}[2025/12/01 ACL-compatible local style for course report]
+\RequirePackage[a4paper,top=2.45cm,bottom=2.45cm,left=1.85cm,right=1.85cm,columnsep=0.65cm]{geometry}
+\RequirePackage{times}
+\RequirePackage{latexsym}
+\RequirePackage{natbib}
+\RequirePackage{url}
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+\RequirePackage{caption}
+\RequirePackage{titlesec}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=blue,urlcolor=blue}
+\bibliographystyle{acl_natbib}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+\setlength{\textfloatsep}{8pt plus 1pt minus 2pt}
+\setlength{\floatsep}{8pt plus 1pt minus 2pt}
+\setlength{\intextsep}{8pt plus 1pt minus 2pt}
+\captionsetup{font=small,labelfont=bf}
+\titleformat{\section}{\large\bfseries}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.0ex plus .2ex minus .2ex}{0.7ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{0.9ex plus .2ex minus .2ex}{0.45ex plus .2ex}
+\makeatletter
+\newlength\titlebox
+\setlength\titlebox{5.0cm}
+\renewcommand{\maketitle}{%
+  \begingroup
+  \twocolumn[\begin{@twocolumnfalse}
+  \vspace*{-0.25in}
+  \begin{center}
+    {\LARGE\bfseries \@title \par}
+    \vspace{0.8em}
+    {\large \@author \par}
+  \end{center}
+  \vspace{0.5em}
+  \end{@twocolumnfalse}]
+  \endgroup
+}
+\renewenvironment{abstract}{%
+  \section*{Abstract}
+  \small
+}{\par\normalsize\vspace{0.5em}}
+\makeatother
