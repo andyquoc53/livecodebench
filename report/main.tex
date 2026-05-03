@@ -234,9 +234,7 @@ The open-model runs used a Vast.ai NVIDIA A100-SXM4-40GB GPU instance with CUDA 
 
 \section{Code}
 The standalone code package is in the project GitHub repository:
-\begin{center}
-\small \url{https://github.com/andyquoc53/livecodebench}
-\end{center}
+\href{https://github.com/andyquoc53/livecodebench}{github.com/andyquoc53/livecodebench}.
 The repository contains a README, the Jupyter notebook used on the GPU instance, standalone shell scripts under \texttt{scripts/lcb/}, and the final results under \texttt{results/livecodebench/}. The run scripts patch the current \lcb{} runner so that DeepSeek-Coder-V2-Lite and Claude Sonnet 4.6 are available, vLLM does not allocate the full long-context window, self-repair uses the same date filter as code generation, unknown self-repair metadata is tolerated, and paid API calls can be capped or expanded with \texttt{API\_SAMPLE\_SIZE}. This satisfies the course requirement for standalone scripts while still using the official \lcb{} codebase as the benchmark dependency.
 
 \section{Conclusion}
