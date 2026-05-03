@@ -6,7 +6,7 @@ This repository accompanies the report:
 
 It is intentionally separate from the original LiveCodeBench repository. It contains:
 
-- `data/`: CSV files used for the secondary analysis in the report.
+- `data/`: small background CSV files used for proposal/report figures.
 - `scripts/make_figures.py`: recreates the report figures from the CSV files.
 - `scripts/run_lcb_experiments.sh`: a Vast.ai/A100-ready wrapper for running LiveCodeBench code generation and self-repair.
 - `scripts/lcb/`: patched helper scripts for Qwen2.5-Coder-7B-Instruct, DeepSeek-Coder-V2-Lite-Instruct, and Claude Sonnet 4.6 API runs.
@@ -15,9 +15,9 @@ It is intentionally separate from the original LiveCodeBench repository. It cont
 
 ## What was actually executed
 
-The final report uses a legitimate secondary analysis of published measurements from LiveCodeBench and model technical reports. The included plotting script was executed locally to generate the figures in the PDF.
+The final report is based on a controlled LiveCodeBench `release_v5` run on the proposal-aligned date window `2024-08-01` through `2025-01-31`. Published LiveCodeBench and model-report measurements are used only as background context.
 
-After GPU/API setup on Vast.ai, the repository scripts were also executed against the official LiveCodeBench runner on `release_v5` with the proposal-aligned date window `2024-08-01` through `2025-01-31`.
+After GPU/API setup on Vast.ai, the repository scripts were executed against the official LiveCodeBench runner for the full filtered 279-problem window.
 
 Executed run artifacts are tracked under `results/livecodebench/`:
 
@@ -89,9 +89,9 @@ For a quick smoke test before spending full GPU time:
 SMOKE=1 bash /path/to/this_repo/scripts/run_lcb_experiments.sh
 ```
 
-## Safe Claude Sonnet 4.6 100-problem run
+## Claude Sonnet 4.6 API runs
 
-The Sonnet path is intentionally separate from the full open-model runner so it cannot accidentally evaluate the full set. It uses the non-thinking Claude style in LiveCodeBench and defaults to 100 problems.
+The Sonnet path is intentionally separate from the open-model runner so paid API calls can be capped for debugging or expanded for the full filtered run. It uses the non-thinking Claude style in LiveCodeBench and defaults to 100 problems.
 
 ```bash
 export ANTHROPIC_KEY="sk-ant-..."
@@ -99,21 +99,21 @@ export ANTHROPIC_KEY="sk-ant-..."
 
 cd /path/to/LiveCodeBench
 bash /path/to/this_repo/scripts/lcb/01_setup_lcb.sh
-API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
+API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=4096 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
 ```
 
 Optional self-repair run, after the code-generation run:
 
 ```bash
-API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
+API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=4096 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
 ```
 
 To evaluate Claude Sonnet 4.6 on the full filtered date window instead of the
 100-problem cap, use `API_SAMPLE_SIZE=all` or `SONNET_FULL_RUN=1`:
 
 ```bash
-API_SAMPLE_SIZE=all SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
-API_SAMPLE_SIZE=all SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
+API_SAMPLE_SIZE=all SONNET_MAX_TOKENS=4096 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
+API_SAMPLE_SIZE=all SONNET_MAX_TOKENS=4096 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
 ```
 
 The wrapper applies three compatibility patches to the official LiveCodeBench checkout:
