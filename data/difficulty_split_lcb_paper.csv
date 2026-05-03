@@ -1,0 +1,6 @@
+model,Easy,Medium,Hard
+GPT-4o,88.3,33.2,4.2
+Claude-3-Opus,78.8,16.3,3.2
+Codestral-22B,69.0,18.7,0.9
+DS-Coder-33B,55.6,9.0,0.7
+DS-Coder-6.7B,46.4,5.8,0.7
