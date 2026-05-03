@@ -24,13 +24,7 @@ fi
 
 UV_BIN="${UV_BIN:-$(command -v uv)}"
 "$UV_BIN" --version
-PYTORCH_CUDA_INDEX_URL="${PYTORCH_CUDA_INDEX_URL:-https://download.pytorch.org/whl/cu128}"
-TORCH_PACKAGE="${TORCH_PACKAGE:-torch==2.11.0+cu128}"
-
-install_cuda_torch() {
-  echo "Installing CUDA-compatible PyTorch: $TORCH_PACKAGE"
-  "$UV_BIN" pip install --reinstall --index-url "$PYTORCH_CUDA_INDEX_URL" "$TORCH_PACKAGE"
-}
+export UV_TORCH_BACKEND="${UV_TORCH_BACKEND:-auto}"
 
 # Official LiveCodeBench setup.
 if [[ "${RESET_VENV:-0}" == "1" ]]; then
@@ -47,10 +41,13 @@ source .venv/bin/activate
 # Extra dependencies commonly needed for open HF/vLLM model inference.
 # LiveCodeBench's HF dataset still uses a dataset script, which datasets 4.x no longer supports.
 "$UV_BIN" pip install -U "transformers>=4.37.0" accelerate "datasets==3.6.0" huggingface_hub hf_transfer safetensors sentencepiece protobuf
-install_cuda_torch
-"$UV_BIN" pip install -U vllm || echo "vLLM install failed; check CUDA/PyTorch compatibility for your runtime."
+"$UV_BIN" pip install -U vllm --torch-backend=auto
 "$UV_BIN" pip install -U "datasets==3.6.0"
-install_cuda_torch
+
+python - <<'PY'
+from vllm import LLM, SamplingParams
+print("vLLM import OK")
+PY
 
 # Reduce vLLM memory pressure from long-context model configs and keep self-repair on the same date window.
 python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02b_patch_vllm_max_model_len.py" . || true
