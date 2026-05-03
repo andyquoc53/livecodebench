@@ -9,7 +9,7 @@ It is intentionally separate from the original LiveCodeBench repository. It cont
 - `data/`: CSV files used for the secondary analysis in the report.
 - `scripts/make_figures.py`: recreates the report figures from the CSV files.
 - `scripts/run_lcb_experiments.sh`: a Vast.ai/A100-ready wrapper for running LiveCodeBench code generation and self-repair.
-- `scripts/lcb/`: patched helper scripts for Qwen2.5-Coder-7B-Instruct, DeepSeek-Coder-V2-Lite-Instruct, and a safe Claude Sonnet 4.6 API sample.
+- `scripts/lcb/`: patched helper scripts for Qwen2.5-Coder-7B-Instruct, DeepSeek-Coder-V2-Lite-Instruct, and a safe 100-problem Claude Sonnet 4.6 API run.
 - `notebooks/LiveCodeBench_Qwen_DeepSeek_Run.ipynb`: the notebook workflow for Vast.ai, Colab, or plain Jupyter.
 - `requirements.txt`: Python packages for the lightweight analysis scripts.
 
@@ -17,7 +17,7 @@ It is intentionally separate from the original LiveCodeBench repository. It cont
 
 The final report uses a legitimate secondary analysis of published measurements from LiveCodeBench and model technical reports. The included plotting script was executed locally to generate the figures in the PDF.
 
-A full controlled benchmark run over Claude Sonnet 4.6, Qwen2.5-Coder-7B-Instruct, and DeepSeek-Coder-V2-Lite-Instruct was **not** executed in this local environment because it requires GPU resources and/or API credentials. The included `scripts/lcb/` and notebook are the prepared execution path for the two open models on a rented A100, plus a small API-only Sonnet sample.
+A full controlled benchmark run over Claude Sonnet 4.6, Qwen2.5-Coder-7B-Instruct, and DeepSeek-Coder-V2-Lite-Instruct was **not** executed in this local environment because it requires GPU resources and/or API credentials. The included `scripts/lcb/` and notebook are the prepared execution path for the two open models on a rented A100, plus a 100-problem API-only Sonnet run.
 
 Qwen and DeepSeek are run as regular instruct/code models through vLLM. They are not QwQ/DeepSeek-R1-style reasoning models, and the scripts do not enable any extended-thinking mode.
 
@@ -69,9 +69,9 @@ For a quick smoke test before spending full GPU time:
 SMOKE=1 bash /path/to/this_repo/scripts/run_lcb_experiments.sh
 ```
 
-## Safe Claude Sonnet 4.6 sample
+## Safe Claude Sonnet 4.6 100-problem run
 
-The Sonnet path is intentionally separate from the full open-model runner so it cannot accidentally evaluate the full set. It uses the non-thinking Claude style in LiveCodeBench and defaults to three problems.
+The Sonnet path is intentionally separate from the full open-model runner so it cannot accidentally evaluate the full set. It uses the non-thinking Claude style in LiveCodeBench and defaults to 100 problems.
 
 ```bash
 export ANTHROPIC_KEY="sk-ant-..."
@@ -79,13 +79,13 @@ export ANTHROPIC_KEY="sk-ant-..."
 
 cd /path/to/LiveCodeBench
 bash /path/to/this_repo/scripts/lcb/01_setup_lcb.sh
-API_SAMPLE_SIZE=3 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
+API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
 ```
 
-Optional self-repair sample, after the code-generation sample:
+Optional self-repair run, after the code-generation run:
 
 ```bash
-API_SAMPLE_SIZE=3 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
+API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
 ```
 
 The wrapper applies three compatibility patches to the official LiveCodeBench checkout:

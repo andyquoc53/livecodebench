@@ -3,8 +3,8 @@ set -euo pipefail
 
 # Run from inside the official LiveCodeBench repository root.
 # This wrapper delegates to the patched open-model scripts in scripts/lcb/.
-# Claude Sonnet 4.6 has a separate sample-only script:
-#   API_SAMPLE_SIZE=3 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
+# Claude Sonnet 4.6 has a separate 100-problem API run script:
+#   API_SAMPLE_SIZE=100 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
 #
 # Example:
 #   git clone https://github.com/LiveCodeBench/LiveCodeBench.git

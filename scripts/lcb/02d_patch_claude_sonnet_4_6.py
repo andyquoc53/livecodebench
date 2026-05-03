@@ -14,7 +14,7 @@ import argparse
 from pathlib import Path
 
 ENTRY = '''
-    # Added by course project run package: Claude Sonnet 4.6 safe API sample
+    # Added by course project run package: Claude Sonnet 4.6 safe 100-problem API run
     LanguageModel(
         "claude-sonnet-4-6",
         "Claude-Sonnet-4.6",

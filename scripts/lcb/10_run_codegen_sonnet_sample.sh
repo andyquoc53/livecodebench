@@ -6,18 +6,18 @@ source "$SCRIPT_DIR/_common_run_env.sh"
 ensure_lcb_root
 
 if [[ -z "${ANTHROPIC_KEY:-}" ]]; then
-  echo "ERROR: set ANTHROPIC_KEY or ANTHROPIC_API_KEY before running the Sonnet API sample." >&2
+  echo "ERROR: set ANTHROPIC_KEY or ANTHROPIC_API_KEY before running the Sonnet API run." >&2
   exit 1
 fi
 
-API_SAMPLE_SIZE="${API_SAMPLE_SIZE:-3}"
+API_SAMPLE_SIZE="${API_SAMPLE_SIZE:-100}"
 SONNET_MAX_TOKENS="${SONNET_MAX_TOKENS:-2048}"
 ANTHROPIC_MULTIPROCESS="${ANTHROPIC_MULTIPROCESS:-1}"
 export LCB_DEBUG_LIMIT="$API_SAMPLE_SIZE"
 
 print_run_config
 echo "Sonnet model:         claude-sonnet-4-6"
-echo "API sample size:      $API_SAMPLE_SIZE"
+echo "API problem count:    $API_SAMPLE_SIZE"
 echo "Sonnet max tokens:    $SONNET_MAX_TOKENS"
 echo "API multiprocess:     $ANTHROPIC_MULTIPROCESS"
 
