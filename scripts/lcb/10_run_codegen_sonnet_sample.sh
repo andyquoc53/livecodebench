@@ -33,7 +33,6 @@ python -m lcb_runner.runner.main \
   --end_date "$END_DATE" \
   --n 1 \
   --temperature "$TEMPERATURE" \
-  --top_p "$TOP_P" \
   --max_tokens "$SONNET_MAX_TOKENS" \
   --multiprocess "$ANTHROPIC_MULTIPROCESS" \
   --timeout "$TIMEOUT" \
