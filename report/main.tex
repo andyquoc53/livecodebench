@@ -70,6 +70,8 @@ Anthropic describes Sonnet 4.6 as a cost-efficient frontier model for coding, ag
 \subsection{Reproducible analysis workflow}
 The accompanying GitHub repository contains standalone scripts and a Jupyter notebook for the full workflow: cloning the official \lcb{} codebase, applying compatibility patches, running Qwen and DeepSeek through vLLM, running Claude Sonnet 4.6 through the Anthropic API, collecting summaries, and packaging the outputs. The common configuration is $n=1$, temperature 0.2, generation budget 4096 tokens, evaluator timeout 10 seconds, and 4 evaluation processes. The result collector emits overall, per-instance, difficulty, platform, month, and repair-gain summaries used for the tables and figures in this report.
 
+The run was staged rather than executed all at once. Short smoke runs first checked model loading, prompt formatting, API authentication, and self-repair metadata handling. Those early runs are not used as reported results because they covered only small debugging subsets. The final tables use the full 279-problem filtered set for every model and both scenarios. For Claude, the scripts also allowed the API sample size to be capped during debugging and then expanded to all filtered problems for the submitted run. That mattered in practice: a small API mistake can waste money quickly, while an open-model mistake can consume GPU time and leave partial outputs. The staged workflow made the final comparison slower to run, but easier to trust.
+
 \section{Results}
 \subsection{Benchmark growth and temporal control}
 The first result is structural rather than model-specific: \lcb{}'s release history makes temporal evaluation possible. Static benchmarks have a fixed task set. A model developer can tune prompts, pretraining filters, or instruction data against the public distribution, and the benchmark score may continue rising even if the model is not substantially better on new tasks. A living benchmark can instead define a held-out time window. For example, release\_v5 includes 880 problems through January 2025, while release\_v6 includes 1055 through April 2025. That means a researcher can evaluate on tasks after a model's training cutoff, or compare Q3 2024, Q4 2024, and Q1 2025 windows as the proposal described.
@@ -210,6 +212,8 @@ The final run also records month and platform summaries. Claude's code-generatio
 
 These month and platform summaries should be interpreted cautiously because the monthly windows have different sizes and difficulty mixes. A stronger temporal study would bootstrap confidence intervals and control for difficulty within each month. Still, the executed run satisfies the proposal's temporal-control goal: all reported scores come from the same post-August-2024 release\_v5 window, rather than mixing results across unrelated benchmark releases.
 
+One negative result is also worth stating plainly. The project did not produce a reliable quantitative leaderboard by algorithm tag. That is less satisfying than a clean bar chart for dynamic programming, graphs, greedy methods, and data structures, but it is the right choice for this report. The collected outputs support difficulty, platform, month, and repair analyses. They do not support exact category percentages without an additional tagging step. The category table is therefore a plan for a better follow-up run, not a disguised result.
+
 \section{Discussion}
 \subsection{What counts as progress?}
 The results support a cautious interpretation of algorithmic progress. Aggregate performance has improved, especially for code-specialized open models, and \lcb{} gives a cleaner view of that progress than older static benchmarks. However, progress is not uniform. Easy-tier gains are not enough to claim robust algorithmic reasoning. The hardest remaining obstacle is the model's ability to infer a correct high-level algorithm before implementation.
@@ -233,6 +237,8 @@ The main threat is that this is one controlled slice rather than a full multi-re
 
 \section{Resources}
 The open-model runs used a Vast.ai NVIDIA A100-SXM4-40GB GPU instance with CUDA 12.8 drivers, Python 3.11, uv, HuggingFace model downloads, and vLLM 0.10.0. Qwen2.5-Coder-7B-Instruct loaded in about 14.2 GiB of GPU memory, while DeepSeek-Coder-V2-Lite-Instruct loaded in about 29.3 GiB. Both were run with bfloat16 precision, tensor parallel size 1, maximum model length 8192, and vLLM GPU memory utilization 0.90. Claude Sonnet 4.6 was run through the Anthropic API with a 4096-token output cap; the main resource for Claude was API cost rather than local compute. The final result collection generated CSV summaries and a zipped output package from the runner logs.
+
+Vast.ai was used instead of Google Colab because the open-model runs needed a predictable A100 session, enough GPU memory for DeepSeek-Coder-V2-Lite, and enough time to download and load large model checkpoints. Colab would have been reasonable for notebook development or smaller smoke checks, but the full runs were easier to manage on a rented instance with stable hardware. The Claude runs had the opposite profile: they required almost no local GPU memory, but they needed careful API budgeting.
 
 \section{Code}
 The standalone code package is in the project GitHub repository:
