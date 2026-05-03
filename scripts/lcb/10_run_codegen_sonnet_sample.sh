@@ -13,11 +13,21 @@ fi
 API_SAMPLE_SIZE="${API_SAMPLE_SIZE:-100}"
 SONNET_MAX_TOKENS="${SONNET_MAX_TOKENS:-2048}"
 ANTHROPIC_MULTIPROCESS="${ANTHROPIC_MULTIPROCESS:-1}"
-export LCB_DEBUG_LIMIT="$API_SAMPLE_SIZE"
+SONNET_FULL_RUN="${SONNET_FULL_RUN:-0}"
+SONNET_DEBUG_FLAG="--debug"
+SONNET_PROBLEM_LABEL="$API_SAMPLE_SIZE"
+
+if [[ "$SONNET_FULL_RUN" == "1" || "$API_SAMPLE_SIZE" == "all" || "$API_SAMPLE_SIZE" == "ALL" || "$API_SAMPLE_SIZE" == "0" ]]; then
+  SONNET_DEBUG_FLAG=""
+  SONNET_PROBLEM_LABEL="all filtered problems"
+  unset LCB_DEBUG_LIMIT
+else
+  export LCB_DEBUG_LIMIT="$API_SAMPLE_SIZE"
+fi
 
 print_run_config
 echo "Sonnet model:         claude-sonnet-4-6"
-echo "API problem count:    $API_SAMPLE_SIZE"
+echo "API problem count:    $SONNET_PROBLEM_LABEL"
 echo "Sonnet max tokens:    $SONNET_MAX_TOKENS"
 echo "API multiprocess:     $ANTHROPIC_MULTIPROCESS"
 
@@ -38,4 +48,4 @@ python -m lcb_runner.runner.main \
   --timeout "$TIMEOUT" \
   --num_process_evaluate "$NUM_PROCESS_EVALUATE" \
   --use_cache \
-  --debug
+  $SONNET_DEBUG_FLAG

@@ -5,5 +5,7 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-results/
+/results/*
+!/results/livecodebench/
+!/results/livecodebench/**
 results_placeholder/

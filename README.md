@@ -17,9 +17,30 @@ It is intentionally separate from the original LiveCodeBench repository. It cont
 
 The final report uses a legitimate secondary analysis of published measurements from LiveCodeBench and model technical reports. The included plotting script was executed locally to generate the figures in the PDF.
 
-A full controlled benchmark run over Claude Sonnet 4.6, Qwen2.5-Coder-7B-Instruct, and DeepSeek-Coder-V2-Lite-Instruct was **not** executed in this local environment because it requires GPU resources and/or API credentials. The included `scripts/lcb/` and notebook are the prepared execution path for the two open models on a rented A100, plus a 100-problem API-only Sonnet run.
+After GPU/API setup on Vast.ai, the repository scripts were also executed against the official LiveCodeBench runner on `release_v5` with the proposal-aligned date window `2024-08-01` through `2025-01-31`.
+
+Executed run artifacts are tracked under `results/livecodebench/`:
+
+- Claude Sonnet 4.6 code generation: 100 problems, pass@1 = 0.86.
+- Claude Sonnet 4.6 self-repair: 100 problems, pass@1 = 0.86.
+- Qwen2.5-Coder-7B-Instruct code generation/self-repair smoke runs: 15 problems each, pass@1 = 0.0667 / 0.0667.
+- DeepSeek-Coder-V2-Lite-Instruct code generation/self-repair smoke runs: 15 problems each, pass@1 = 0.0000 / 0.0667.
+
+The Qwen and DeepSeek rows are smoke/debug checks, not full 279-problem runs. The Sonnet rows are the cost-capped 100-problem API sample requested for the final report.
 
 Qwen and DeepSeek are run as regular instruct/code models through vLLM. They are not QwQ/DeepSeek-R1-style reasoning models, and the scripts do not enable any extended-thinking mode.
+
+## Executed LiveCodeBench summaries
+
+The real runner outputs were summarized with `scripts/lcb/08_collect_results.sh`. The tracked summary files are:
+
+- `results/livecodebench/lcb_summary.md`
+- `results/livecodebench/lcb_summary.csv`
+- `results/livecodebench/lcb_by_instance.csv`
+- `results/livecodebench/lcb_breakdown.csv`
+- `results/livecodebench/lcb_repair_gain.csv`
+
+The raw archive from Vast.ai was `lcb_run_outputs.zip`. It is intentionally ignored by Git because the repository tracks the smaller, reviewable CSV/Markdown summaries instead.
 
 ## Recreate the report figures
 
@@ -88,6 +109,14 @@ Optional self-repair run, after the code-generation run:
 API_SAMPLE_SIZE=100 SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
 ```
 
+To evaluate Claude Sonnet 4.6 on the full filtered date window instead of the
+100-problem cap, use `API_SAMPLE_SIZE=all` or `SONNET_FULL_RUN=1`:
+
+```bash
+API_SAMPLE_SIZE=all SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/10_run_codegen_sonnet_sample.sh
+API_SAMPLE_SIZE=all SONNET_MAX_TOKENS=2048 bash /path/to/this_repo/scripts/lcb/11_run_selfrepair_sonnet_sample.sh
+```
+
 The wrapper applies three compatibility patches to the official LiveCodeBench checkout:
 
 - adds `deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct` and `claude-sonnet-4-6` to `lm_styles.py` when missing;
@@ -95,15 +124,10 @@ The wrapper applies three compatibility patches to the official LiveCodeBench ch
 - makes self-repair respect the same `--start_date` and `--end_date` filter as code generation.
 - makes LiveCodeBench `--debug` respect `LCB_DEBUG_LIMIT` for safe API sampling.
 
-## GitHub submission step
+## GitHub repository
 
-Before submitting the final report, push this folder to a GitHub repository and update the placeholder URL in the report's Code section:
+Repository URL:
 
-```bash
-git init
-git add .
-git commit -m "Add LiveCodeBench progress survey code"
-git branch -M main
-git remote add origin https://github.com/<your-username>/lcb-progress-survey.git
-git push -u origin main
+```text
+https://github.com/andyquoc53/livecodebench
 ```
