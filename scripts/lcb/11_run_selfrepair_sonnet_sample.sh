@@ -24,6 +24,7 @@ echo "API multiprocess:     $ANTHROPIC_MULTIPROCESS"
 python "$SCRIPT_DIR/02c_patch_selfrepair_date_filter.py" .
 python "$SCRIPT_DIR/02d_patch_claude_sonnet_4_6.py" .
 python "$SCRIPT_DIR/02e_patch_debug_sample_limit.py" .
+python "$SCRIPT_DIR/02g_patch_selfrepair_styles.py" .
 
 # Self-repair requires the matching Sonnet codegeneration_1_<temperature>_eval_all.json.
 python -m lcb_runner.runner.main \

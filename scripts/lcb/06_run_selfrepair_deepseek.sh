@@ -7,6 +7,7 @@ ensure_lcb_root
 print_run_config
 python "$SCRIPT_DIR/02b_patch_vllm_max_model_len.py" .
 python "$SCRIPT_DIR/02c_patch_selfrepair_date_filter.py" .
+python "$SCRIPT_DIR/02g_patch_selfrepair_styles.py" .
 
 python "$SCRIPT_DIR/02_patch_deepseek_v2_lite.py" .
 

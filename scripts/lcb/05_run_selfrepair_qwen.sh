@@ -7,6 +7,7 @@ ensure_lcb_root
 print_run_config
 python "$SCRIPT_DIR/02b_patch_vllm_max_model_len.py" .
 python "$SCRIPT_DIR/02c_patch_selfrepair_date_filter.py" .
+python "$SCRIPT_DIR/02g_patch_selfrepair_styles.py" .
 
 # Self-repair requires the matching codegeneration_{N}_{TEMPERATURE}_eval_all.json from the codegen run.
 python -m lcb_runner.runner.main \
