@@ -1,0 +1,9 @@
+*.zip
+*.pdf
+/LiveCodeBench_Qwen_DeepSeek_Run.ipynb
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+results/
+results_placeholder/
