@@ -24,7 +24,10 @@ fi
 
 UV_BIN="${UV_BIN:-$(command -v uv)}"
 "$UV_BIN" --version
-export UV_TORCH_BACKEND="${UV_TORCH_BACKEND:-auto}"
+VLLM_VERSION="${VLLM_VERSION:-0.10.0}"
+VLLM_CUDA_VERSION="${VLLM_CUDA_VERSION:-126}"
+VLLM_WHEEL_URL="${VLLM_WHEEL_URL:-https://github.com/vllm-project/vllm/releases/download/v${VLLM_VERSION}/vllm-${VLLM_VERSION}+cu${VLLM_CUDA_VERSION}-cp38-abi3-manylinux1_x86_64.whl}"
+PYTORCH_CUDA_INDEX_URL="${PYTORCH_CUDA_INDEX_URL:-https://download.pytorch.org/whl/cu${VLLM_CUDA_VERSION}}"
 
 # Official LiveCodeBench setup.
 if [[ "${RESET_VENV:-0}" == "1" ]]; then
@@ -41,7 +44,7 @@ source .venv/bin/activate
 # Extra dependencies commonly needed for open HF/vLLM model inference.
 # LiveCodeBench's HF dataset still uses a dataset script, which datasets 4.x no longer supports.
 "$UV_BIN" pip install -U "transformers>=4.37.0" accelerate "datasets==3.6.0" huggingface_hub hf_transfer safetensors sentencepiece protobuf
-"$UV_BIN" pip install -U vllm --torch-backend=auto
+"$UV_BIN" pip install -U "$VLLM_WHEEL_URL" --extra-index-url "$PYTORCH_CUDA_INDEX_URL"
 "$UV_BIN" pip install -U "datasets==3.6.0"
 
 python - <<'PY'
