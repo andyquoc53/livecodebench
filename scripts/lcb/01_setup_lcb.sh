@@ -43,13 +43,15 @@ source .venv/bin/activate
 
 # Extra dependencies commonly needed for open HF/vLLM model inference.
 # LiveCodeBench's HF dataset still uses a dataset script, which datasets 4.x no longer supports.
-"$UV_BIN" pip install -U "transformers==4.57.3" accelerate "datasets==3.6.0" huggingface_hub hf_transfer safetensors sentencepiece protobuf
+"$UV_BIN" pip install -U "numpy<2.3" "transformers==4.57.3" accelerate "datasets==3.6.0" huggingface_hub hf_transfer safetensors sentencepiece protobuf
 "$UV_BIN" pip install -U "$VLLM_WHEEL_URL" --extra-index-url "$PYTORCH_CUDA_INDEX_URL"
-"$UV_BIN" pip install -U "datasets==3.6.0" "transformers==4.57.3"
+"$UV_BIN" pip install -U "numpy<2.3" "datasets==3.6.0" "transformers==4.57.3"
 
 python - <<'PY'
 from vllm import LLM, SamplingParams
+import numpy
 print("vLLM import OK")
+print("NumPy:", numpy.__version__)
 PY
 
 # Reduce vLLM memory pressure from long-context model configs and keep self-repair on the same date window.
