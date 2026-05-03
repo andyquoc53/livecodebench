@@ -45,10 +45,11 @@ source .venv/bin/activate
 "$UV_BIN" pip install -e .
 
 # Extra dependencies commonly needed for open HF/vLLM model inference.
-# The exact versions are intentionally not pinned so Colab/CUDA can resolve compatible wheels.
-"$UV_BIN" pip install -U "transformers>=4.37.0" accelerate datasets huggingface_hub hf_transfer safetensors sentencepiece protobuf
+# LiveCodeBench's HF dataset still uses a dataset script, which datasets 4.x no longer supports.
+"$UV_BIN" pip install -U "transformers>=4.37.0" accelerate "datasets==3.6.0" huggingface_hub hf_transfer safetensors sentencepiece protobuf
 install_cuda_torch
 "$UV_BIN" pip install -U vllm || echo "vLLM install failed; check CUDA/PyTorch compatibility for your runtime."
+"$UV_BIN" pip install -U "datasets==3.6.0"
 install_cuda_torch
 
 # Reduce vLLM memory pressure from long-context model configs and keep self-repair on the same date window.
