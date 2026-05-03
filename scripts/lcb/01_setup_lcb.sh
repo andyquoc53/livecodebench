@@ -24,6 +24,13 @@ fi
 
 UV_BIN="${UV_BIN:-$(command -v uv)}"
 "$UV_BIN" --version
+PYTORCH_CUDA_INDEX_URL="${PYTORCH_CUDA_INDEX_URL:-https://download.pytorch.org/whl/cu128}"
+TORCH_PACKAGE="${TORCH_PACKAGE:-torch==2.11.0+cu128}"
+
+install_cuda_torch() {
+  echo "Installing CUDA-compatible PyTorch: $TORCH_PACKAGE"
+  "$UV_BIN" pip install --reinstall --index-url "$PYTORCH_CUDA_INDEX_URL" "$TORCH_PACKAGE"
+}
 
 # Official LiveCodeBench setup.
 if [[ "${RESET_VENV:-0}" == "1" ]]; then
@@ -40,7 +47,9 @@ source .venv/bin/activate
 # Extra dependencies commonly needed for open HF/vLLM model inference.
 # The exact versions are intentionally not pinned so Colab/CUDA can resolve compatible wheels.
 "$UV_BIN" pip install -U "transformers>=4.37.0" accelerate datasets huggingface_hub hf_transfer safetensors sentencepiece protobuf
+install_cuda_torch
 "$UV_BIN" pip install -U vllm || echo "vLLM install failed; check CUDA/PyTorch compatibility for your runtime."
+install_cuda_torch
 
 # Reduce vLLM memory pressure from long-context model configs and keep self-repair on the same date window.
 python "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/02b_patch_vllm_max_model_len.py" . || true
